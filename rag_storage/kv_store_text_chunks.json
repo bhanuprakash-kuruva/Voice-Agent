@@ -1,0 +1,16 @@
+{
+  "chunk-f2e3ac4c97df475055e93566372f518f": {
+    "tokens": 171,
+    "content": "Welcome to Smallpdf \n\nReady to take document management to the next level? \n\nDigital Documents—All In One Place \n\nWith the new Smallpdf experience, you can freely upload, organize, and share digital documents. When you enable the 'Storage' option, we'll also store all processed files here. \n\nEnhance Documents in One Click \n\nWhen you right-click on a file, we'll present you with an array of options to convert, compress, or modify it. \n\nAccess Files Anytime, Anywhere \n\nYou can access files stored on Smallpdf from your computer, phone, or tablet. We'll also sync files from the Smallpdf Mobile App to our online portal \n\nCollaborate With Others \n\nForget mundane administrative tasks. With Smallpdf, you can request e-signatures, send large files, or even enable the Smallpdf G Suite App for your entire organization.",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9401e581ea2eb0b2f1332c2d727150cb",
+    "file_path": "document.pdf",
+    "llm_cache_list": [
+      "default:extract:1436ff10c40bbcc780dc690b6f541067",
+      "default:extract:7d4c4d37650349e81303c38b580b4d0a"
+    ],
+    "update_time": 1773033558,
+    "_id": "chunk-f2e3ac4c97df475055e93566372f518f",
+    "create_time": 0
+  }
+}

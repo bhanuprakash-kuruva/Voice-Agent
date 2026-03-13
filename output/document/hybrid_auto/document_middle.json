@@ -1,0 +1,843 @@
+{
+    "pdf_info": [
+        {
+            "para_blocks": [
+                {
+                    "bbox": [
+                        193,
+                        33,
+                        404,
+                        59
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                193,
+                                33,
+                                404,
+                                59
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        193,
+                                        33,
+                                        404,
+                                        59
+                                    ],
+                                    "type": "text",
+                                    "content": "Welcome to Smallpdf"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        110,
+                        63,
+                        485,
+                        83
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                63,
+                                485,
+                                83
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        63,
+                                        485,
+                                        83
+                                    ],
+                                    "type": "text",
+                                    "content": "Ready to take document management to the next level?"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        67,
+                        123,
+                        215,
+                        248
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                67,
+                                123,
+                                215,
+                                248
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        67,
+                                        123,
+                                        215,
+                                        248
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                67,
+                                                123,
+                                                215,
+                                                248
+                                            ],
+                                            "type": "image",
+                                            "image_path": "8a6c0d5214a11d0efe95fd5dc0d0aed44e879e072560ab9b71513837c913d04e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        286,
+                        133,
+                        509,
+                        152
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                286,
+                                133,
+                                509,
+                                152
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        133,
+                                        509,
+                                        152
+                                    ],
+                                    "type": "text",
+                                    "content": "Digital Documents—All In One Place"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                },
+                {
+                    "bbox": [
+                        285,
+                        158,
+                        561,
+                        237
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                285,
+                                158,
+                                561,
+                                237
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        285,
+                                        158,
+                                        561,
+                                        237
+                                    ],
+                                    "type": "text",
+                                    "content": "With the new Smallpdf experience, you can freely upload, organize, and share digital documents. When you enable the 'Storage' option, we'll also store all processed files here."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        44,
+                        318,
+                        249,
+                        333
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                318,
+                                249,
+                                333
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        318,
+                                        249,
+                                        333
+                                    ],
+                                    "type": "text",
+                                    "content": "Enhance Documents in One Click"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                },
+                {
+                    "bbox": [
+                        44,
+                        342,
+                        299,
+                        400
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                342,
+                                299,
+                                400
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        342,
+                                        299,
+                                        400
+                                    ],
+                                    "type": "text",
+                                    "content": "When you right-click on a file, we'll present you with an array of options to convert, compress, or modify it."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        384,
+                        338,
+                        412,
+                        367
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                384,
+                                338,
+                                412,
+                                367
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        384,
+                                        338,
+                                        412,
+                                        367
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                384,
+                                                338,
+                                                412,
+                                                367
+                                            ],
+                                            "type": "image",
+                                            "image_path": "cc2a5979a15ff87d6f683a529b409323293f89821b9aa1ceacea01d7d189c96e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 7,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        420,
+                        339,
+                        440,
+                        365
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                420,
+                                339,
+                                440,
+                                365
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        420,
+                                        339,
+                                        440,
+                                        365
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                420,
+                                                339,
+                                                440,
+                                                365
+                                            ],
+                                            "type": "image",
+                                            "image_path": "df5e0bbe332aa6aac7356fb5b9c7a31f4585495917ac62e4cc1f7771a27bd004.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 8,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        451,
+                        339,
+                        471,
+                        365
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                451,
+                                339,
+                                471,
+                                365
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        451,
+                                        339,
+                                        471,
+                                        365
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                451,
+                                                339,
+                                                471,
+                                                365
+                                            ],
+                                            "type": "image",
+                                            "image_path": "3d35d53302c07f857a4a14d010047a2cb197a2bcec109893f2d5b1b8a4d78d56.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 9,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        478,
+                        339,
+                        504,
+                        365
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                478,
+                                339,
+                                504,
+                                365
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        478,
+                                        339,
+                                        504,
+                                        365
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                478,
+                                                339,
+                                                504,
+                                                365
+                                            ],
+                                            "type": "image",
+                                            "image_path": "bce4459760b2fca948cd196969dbf1eafe5fc13e5f133466dc8002188ba7dabd.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 10,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        385,
+                        371,
+                        411,
+                        396
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                385,
+                                371,
+                                411,
+                                396
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        385,
+                                        371,
+                                        411,
+                                        396
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                385,
+                                                371,
+                                                411,
+                                                396
+                                            ],
+                                            "type": "image",
+                                            "image_path": "4339098769382992c99215deddad10454abc04551340251ca4523a6380b39225.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 11,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 11
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        420,
+                        371,
+                        442,
+                        396
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                420,
+                                371,
+                                442,
+                                396
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        420,
+                                        371,
+                                        442,
+                                        396
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                420,
+                                                371,
+                                                442,
+                                                396
+                                            ],
+                                            "type": "image",
+                                            "image_path": "775bc8831c16d4b6e972a21186ab13b22c0ba1ec220cdb550e1c367140956ae5.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 12,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        451,
+                        371,
+                        473,
+                        396
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                451,
+                                371,
+                                473,
+                                396
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        451,
+                                        371,
+                                        473,
+                                        396
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                451,
+                                                371,
+                                                473,
+                                                396
+                                            ],
+                                            "type": "image",
+                                            "image_path": "7e6913cd2c924d97e19aff625cae117336aa7ef6795cfb31c9401d9d3c6e5340.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 13,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 13
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        480,
+                        371,
+                        506,
+                        396
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                480,
+                                371,
+                                506,
+                                396
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        480,
+                                        371,
+                                        506,
+                                        396
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                480,
+                                                371,
+                                                506,
+                                                396
+                                            ],
+                                            "type": "image",
+                                            "image_path": "1847acdc32626d574bed26f3f14e9ad1e518a9aba5dd54967df5a9212ad3803c.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 14,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 14
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        58,
+                        494,
+                        220,
+                        611
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                58,
+                                494,
+                                220,
+                                611
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        494,
+                                        220,
+                                        611
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                58,
+                                                494,
+                                                220,
+                                                611
+                                            ],
+                                            "type": "image",
+                                            "image_path": "2d12038ffb4e23e20b47d1293aa917f63e3764a958e7b888249b728628e65466.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 15,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 15
+                },
+                {
+                    "bbox": [
+                        286,
+                        480,
+                        485,
+                        497
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                286,
+                                480,
+                                485,
+                                497
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        480,
+                                        485,
+                                        497
+                                    ],
+                                    "type": "text",
+                                    "content": "Access Files Anytime, Anywhere"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16
+                },
+                {
+                    "bbox": [
+                        285,
+                        504,
+                        558,
+                        581
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                285,
+                                504,
+                                558,
+                                581
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        285,
+                                        504,
+                                        558,
+                                        581
+                                    ],
+                                    "type": "text",
+                                    "content": "You can access files stored on Smallpdf from your computer, phone, or tablet. We'll also sync files from the Smallpdf Mobile App to our online portal"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17
+                },
+                {
+                    "bbox": [
+                        50,
+                        673,
+                        203,
+                        689
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                50,
+                                673,
+                                203,
+                                689
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        673,
+                                        203,
+                                        689
+                                    ],
+                                    "type": "text",
+                                    "content": "Collaborate With Others"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "bbox": [
+                        49,
+                        698,
+                        325,
+                        776
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                698,
+                                325,
+                                776
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        698,
+                                        325,
+                                        776
+                                    ],
+                                    "type": "text",
+                                    "content": "Forget mundane administrative tasks. With Smallpdf, you can request e-signatures, send large files, or even enable the Smallpdf G Suite App for your entire organization."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        354,
+                        666,
+                        525,
+                        781
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                354,
+                                666,
+                                525,
+                                781
+                            ],
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        354,
+                                        666,
+                                        525,
+                                        781
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                354,
+                                                666,
+                                                525,
+                                                781
+                                            ],
+                                            "type": "image",
+                                            "image_path": "7bd255729b6110f8d175911f8362c24e4185e418300ad969305899a185303ae6.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 20,
+                            "angle": 0,
+                            "type": "image_body"
+                        }
+                    ],
+                    "index": 20
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 0
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": true,
+    "_vlm_ocr_enable": true,
+    "_version_name": "2.7.6"
+}

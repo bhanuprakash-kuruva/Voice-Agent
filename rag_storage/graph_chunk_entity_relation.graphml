@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Smallpdf">
+      <data key="d0">Smallpdf</data>
+      <data key="d1">organization</data>
+      <data key="d2">Smallpdf is a document management service providing tools for digital document organization, storage, and modification.&lt;SEP&gt;Smallpdf is a document management service providing tools for digital document organization, storage, and modification.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033558</data>
+      <data key="d6" />
+    </node>
+    <node id="Digital Documents">
+      <data key="d0">Digital Documents</data>
+      <data key="d1">category</data>
+      <data key="d2">Digital Documents encompasses various files managed and processed within Smallpdf's platform.&lt;SEP&gt;Digital Documents encompasses various files managed and processed within Smallpdf's platform.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033558</data>
+      <data key="d6" />
+    </node>
+    <node id="Storage">
+      <data key="d0">Storage</data>
+      <data key="d1">method</data>
+      <data key="d2">Storage is a feature enabling the saving of processed files within Smallpdf's online portal.&lt;SEP&gt;Storage is a feature enabling the saving of processed files within Smallpdf's online portal.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033558</data>
+      <data key="d6" />
+    </node>
+    <node id="Convert, Compress, or Modify Files">
+      <data key="d0">Convert, Compress, or Modify Files</data>
+      <data key="d1">method</data>
+      <data key="d2">Smallpdf offers options to alter files through conversion, compression, or modification when right-clicking on a file.&lt;SEP&gt;Smallpdf offers options to alter files through conversion, compression, or modification when right-clicking on a file.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033558</data>
+      <data key="d6" />
+    </node>
+    <node id="Files">
+      <data key="d0">Files</data>
+      <data key="d1">category</data>
+      <data key="d2">Files encompass documents and other data that can be managed, stored, or shared through Smallpdf's services.&lt;SEP&gt;Files encompass documents and other data that can be managed, stored, or shared through Smallpdf's services.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="Online Portal">
+      <data key="d0">Online Portal</data>
+      <data key="d1">category</data>
+      <data key="d2">Online Portal is the central location for accessing files, syncing with Smallpdf's mobile app, and utilizing Smallpdf's services.&lt;SEP&gt;Online Portal is the central location for accessing files, syncing with Smallpdf's mobile app, and utilizing Smallpdf's services.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="Smallpdf G Suite App">
+      <data key="d0">Smallpdf G Suite App</data>
+      <data key="d1">organization</data>
+      <data key="d2">Smallpdf G Suite App is a feature allowing organizations to integrate Smallpdf services into their Google Suite environment.&lt;SEP&gt;Smallpdf G Suite App is a feature allowing organizations to integrate Smallpdf services into their Google Suite environment.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="e-Signatures">
+      <data key="d0">e-Signatures</data>
+      <data key="d1">category</data>
+      <data key="d2">e-Signatures are digital signatures provided through Smallpdf's services to facilitate document signing online.&lt;SEP&gt;e-Signatures are digital signatures provided through Smallpdf's services to facilitate document signing online.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="Large Files">
+      <data key="d0">Large Files</data>
+      <data key="d1">category</data>
+      <data key="d2">Large Files are managed through Smallpdf, including sharing and sending capabilities.&lt;SEP&gt;Large Files are managed through Smallpdf, including sharing and sending capabilities.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="Alex">
+      <data key="d0">Alex</data>
+      <data key="d1">person</data>
+      <data key="d2">Alex is a character who experiences frustration and is observant of the dynamics among other characters.&lt;SEP&gt;Alex is a character who experiences frustration and is observant of the dynamics among other characters.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="Taylor">
+      <data key="d0">Taylor</data>
+      <data key="d1">person</data>
+      <data key="d2">Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective.&lt;SEP&gt;Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="Jordan">
+      <data key="d0">Jordan</data>
+      <data key="d1">person</data>
+      <data key="d2">Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device.&lt;SEP&gt;Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="Cruz">
+      <data key="d0">Cruz</data>
+      <data key="d1">person</data>
+      <data key="d2">Cruz is associated with a vision of control and order, influencing the dynamics among other characters.&lt;SEP&gt;Cruz is associated with a vision of control and order, influencing the dynamics among other characters.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="The Device">
+      <data key="d0">The Device</data>
+      <data key="d1">equipment</data>
+      <data key="d2">The Device is central to the story, with potential game-changing implications, and is revered by Taylor.&lt;SEP&gt;The Device is central to the story, with potential game-changing implications, and is revered by Taylor.</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1773033559</data>
+      <data key="d6" />
+    </node>
+    <node id="control">
+      <data key="d0">control</data>
+      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d2">Cruz's vision of control and order affects how he interacts with others and shapes their decisions.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">document.pdf</data>
+      <data key="d5">1772712072</data>
+      <data key="d6" />
+    </node>
+    <edge source="Smallpdf" target="Digital Documents">
+      <data key="d7">2.0</data>
+      <data key="d8">Smallpdf offers tools for managing digital documents.&lt;SEP&gt;Smallpdf offers tools for managing digital documents.</data>
+      <data key="d9">service</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033560</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Smallpdf" target="Storage">
+      <data key="d7">2.0</data>
+      <data key="d8">Smallpdf provides a storage feature for processed files.&lt;SEP&gt;Smallpdf provides a storage feature for processed files.</data>
+      <data key="d9">service</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033560</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Smallpdf" target="Convert, Compress, or Modify Files">
+      <data key="d7">2.0</data>
+      <data key="d8">Smallpdf offers options for file manipulation when right-clicking on a file.&lt;SEP&gt;Smallpdf offers options for file manipulation when right-clicking on a file.</data>
+      <data key="d9">service</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033560</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Smallpdf" target="Smallpdf G Suite App">
+      <data key="d7">2.0</data>
+      <data key="d8">Integration of Smallpdf services into organizations' Google Suite environments is facilitated by the Smallpdf G Suite App.&lt;SEP&gt;Integration of Smallpdf services into organizations' Google Suite environments is facilitated by the Smallpdf G Suite App.</data>
+      <data key="d9">integration</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033561</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Smallpdf" target="e-Signatures">
+      <data key="d7">2.0</data>
+      <data key="d8">Smallpdf provides an e-signature feature to facilitate online signing of documents.&lt;SEP&gt;Smallpdf provides an e-signature feature to facilitate online signing of documents.</data>
+      <data key="d9">feature</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033561</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Smallpdf" target="Large Files">
+      <data key="d7">2.0</data>
+      <data key="d8">Smallpdf manages large files through sharing and sending capabilities.&lt;SEP&gt;Smallpdf manages large files through sharing and sending capabilities.</data>
+      <data key="d9">management</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033561</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Files" target="Online Portal">
+      <data key="d7">2.0</data>
+      <data key="d8">Files can be accessed from various devices through Smallpdf's online portal and mobile app.&lt;SEP&gt;Files can be accessed from various devices through Smallpdf's online portal and mobile app.</data>
+      <data key="d9">access</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033560</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Alex" target="Taylor">
+      <data key="d7">2.0</data>
+      <data key="d8">Alex observes Taylor's authoritarian behavior and notes the impact on the group dynamics.&lt;SEP&gt;Alex observes Taylor's authoritarian behavior and notes the impact on the group dynamics.</data>
+      <data key="d9">observation,power dynamics</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033560</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Taylor" target="The Device">
+      <data key="d7">2.0</data>
+      <data key="d8">Taylor's moment of reverence towards the device signals a shift in focus or priorities.&lt;SEP&gt;Taylor's moment of reverence towards the device signals a shift in focus or priorities.</data>
+      <data key="d9">change,reverence</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033560</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Jordan" target="The Device">
+      <data key="d7">2.0</data>
+      <data key="d8">Jordan's interaction with the device involves seeking new knowledge or advancements.&lt;SEP&gt;Jordan's interaction with the device involves seeking new knowledge or advancements.</data>
+      <data key="d9">discovery,interaction</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033560</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Cruz" target="control">
+      <data key="d7">2.0</data>
+      <data key="d8">Cruz's vision of control and order affects how he interacts with others and shapes their decisions.&lt;SEP&gt;Cruz's vision of control and order affects how he interacts with others and shapes their decisions.</data>
+      <data key="d9">vision</data>
+      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
+      <data key="d11">document.pdf</data>
+      <data key="d12">1773033560</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

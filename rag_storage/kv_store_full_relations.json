@@ -1,0 +1,106 @@
+{
+  "doc-3221ace08e339ff9e596a45a16c03760": {
+    "relation_pairs": [
+      [
+        "Smallpdf",
+        "Smallpdf G Suite App"
+      ],
+      [
+        "Cruz",
+        "control"
+      ],
+      [
+        "Large Files",
+        "Smallpdf"
+      ],
+      [
+        "Convert, Compress, or Modify Files",
+        "Smallpdf"
+      ],
+      [
+        "Smallpdf",
+        "e-Signatures"
+      ],
+      [
+        "Digital Documents",
+        "Smallpdf"
+      ],
+      [
+        "Alex",
+        "Taylor"
+      ],
+      [
+        "Taylor",
+        "The Device"
+      ],
+      [
+        "Smallpdf",
+        "Storage"
+      ],
+      [
+        "Jordan",
+        "The Device"
+      ],
+      [
+        "Files",
+        "Online Portal"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1772712073,
+    "update_time": 1772712073,
+    "_id": "doc-3221ace08e339ff9e596a45a16c03760"
+  },
+  "doc-9401e581ea2eb0b2f1332c2d727150cb": {
+    "relation_pairs": [
+      [
+        "Taylor",
+        "The Device"
+      ],
+      [
+        "Smallpdf",
+        "Smallpdf G Suite App"
+      ],
+      [
+        "Digital Documents",
+        "Smallpdf"
+      ],
+      [
+        "Convert, Compress, or Modify Files",
+        "Smallpdf"
+      ],
+      [
+        "Cruz",
+        "control"
+      ],
+      [
+        "Large Files",
+        "Smallpdf"
+      ],
+      [
+        "Files",
+        "Online Portal"
+      ],
+      [
+        "Smallpdf",
+        "e-Signatures"
+      ],
+      [
+        "Alex",
+        "Taylor"
+      ],
+      [
+        "Smallpdf",
+        "Storage"
+      ],
+      [
+        "Jordan",
+        "The Device"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1773033561,
+    "update_time": 1773033561,
+    "_id": "doc-9401e581ea2eb0b2f1332c2d727150cb"
+  }
+}

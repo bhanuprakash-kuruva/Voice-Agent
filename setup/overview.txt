@@ -1,0 +1,492 @@
+create ./data/document.pdf
+
+./requirements.text
+raganything
+lightrag-hku
+openai
+numpy
+tqdm
+python-dotenv
+sentence-transformers
+pydub
+sounddevice
+scipy
+faster-whisper
+pyttsx3
+prometheus-client
+
+./voice/stt.py
+
+import sounddevice as sd
+import numpy as np
+from scipy.io.wavfile import write
+from faster_whisper import WhisperModel
+
+SAMPLE_RATE = 16000
+
+model = WhisperModel(
+    "small",
+    device="cpu",
+    compute_type="int8"
+)
+
+
+def record_audio(filename="mic_input.wav", duration=5):
+
+    print("\n🎤 Speak now...")
+
+    recording = sd.rec(
+        int(duration * SAMPLE_RATE),
+        samplerate=SAMPLE_RATE,
+        channels=1,
+        dtype="float32"
+    )
+
+    sd.wait()
+
+    write(filename, SAMPLE_RATE, recording)
+
+    return filename
+
+
+def speech_to_text(audio_file):
+
+    segments, _ = model.transcribe(
+        audio_file,
+        beam_size=5,
+        vad_filter=True
+    )
+
+    text = ""
+
+    for segment in segments:
+        text += segment.text
+
+    return text.strip()
+
+
+/voice/tts.py
+import pyttsx3
+import os
+
+
+def speak(text, filename="response.wav"):
+
+    print("\n🔊 Generating speech audio...\n")
+
+    engine = pyttsx3.init()
+    engine.setProperty("rate", 170)
+
+    try:
+        engine.save_to_file(text, filename)
+        engine.runAndWait()
+    finally:
+        engine.stop()
+
+    print(f"Audio saved as: {filename}")
+
+    choice = input("Do you want to listen to the response? (y/n): ").lower()
+
+    if choice == "y":
+        print("\n🔊 Playing response...\n")
+        os.startfile(filename)
+
+
+./rag_pipeline.py
+import asyncio
+import numpy as np
+from openai import OpenAI
+from raganything import RAGAnything
+from raganything.config import RAGAnythingConfig
+from lightrag.utils import EmbeddingFunc
+ 
+ 
+# ----------------------------
+# OLLAMA CLIENT
+# ----------------------------
+client = OpenAI(
+    base_url="http://localhost:11434/v1",
+    api_key="ollama"
+)
+ 
+ 
+# ----------------------------
+# LLM FUNCTION
+# ----------------------------
+async def llm_func(prompt, system_prompt=None, history_messages=[], **kwargs):
+ 
+    messages = []
+ 
+    if system_prompt:
+        messages.append({"role": "system", "content": system_prompt})
+ 
+    for msg in history_messages:
+        messages.append(msg)
+ 
+    messages.append({"role": "user", "content": prompt})
+ 
+    response = client.chat.completions.create(
+        model="qwen2:7b",
+        messages=messages
+    )
+ 
+    return response.choices[0].message.content
+ 
+ 
+# ----------------------------
+# EMBEDDING FUNCTION (FIXED)
+# ----------------------------
+async def embed_texts(texts):
+ 
+    # Batch embedding request (much faster)
+    response = client.embeddings.create(
+        model="nomic-embed-text",
+        input=texts
+    )
+ 
+    embeddings = [item.embedding for item in response.data]
+ 
+    # Convert to numpy array (required by LightRAG)
+    return np.array(embeddings, dtype=np.float32)
+ 
+ 
+# ----------------------------
+# BUILD RAG (IMPORTANT)
+# ----------------------------
+async def build_rag():
+
+    config = RAGAnythingConfig(
+        working_dir="./rag_storage",
+        parser="pymupdf",
+        parse_method="auto",
+        enable_image_processing=False,
+        enable_table_processing=False,
+        enable_equation_processing=False
+    )
+
+    embedding_func = EmbeddingFunc(
+        embedding_dim=768,
+        max_token_size=8192,
+        func=embed_texts
+    )
+
+    rag = RAGAnything(
+        config=config,
+        llm_model_func=llm_func,
+        embedding_func=embedding_func
+    )
+
+    return rag
+
+# ----------------------------
+# MAIN PIPELINE
+# ----------------------------
+async def main():
+ 
+    config = RAGAnythingConfig(
+        working_dir="./rag_storage",
+        parser="pymupdf",
+        parse_method="auto",
+        enable_image_processing=False,
+        enable_table_processing=False,
+        enable_equation_processing=False
+    )
+ 
+    embedding_func = EmbeddingFunc(
+        embedding_dim=768,
+        max_token_size=8192,
+        func=embed_texts
+    )
+ 
+    rag = RAGAnything(
+        config=config,
+        llm_model_func=llm_func,
+        embedding_func=embedding_func
+    )
+ 
+    print("\nProcessing document...\n")
+ 
+    await rag.process_document_complete(
+        file_path="./data/document.pdf",
+        output_dir="./output",
+        parse_method="auto"
+    )
+ 
+    print("\nDocument processed successfully.\n")
+ 
+    result = await rag.aquery(
+        "What is this document about?",
+        mode="hybrid"
+    )
+ 
+    print("\n=============================")
+    print("ANSWER:")
+    print("=============================\n")
+    print(result)
+ 
+ 
+if __name__ == "__main__":
+    asyncio.run(main())
+
+
+
+./voice_rag.py
+import asyncio
+import time
+import uuid
+
+from voice.stt import record_audio, speech_to_text
+from voice.tts import speak
+from rag_pipeline import build_rag
+
+from prometheus_client import start_http_server, Counter, Histogram, Gauge
+import psutil
+
+
+# ------------------------------------------------
+# REQUEST METRICS
+# ------------------------------------------------
+
+rag_requests_total = Counter(
+    "rag_requests_total",
+    "Total RAG queries",
+    ["status"]
+)
+
+rag_active_requests = Gauge(
+    "rag_active_requests",
+    "Currently active RAG queries"
+)
+
+
+# ------------------------------------------------
+# LATENCY METRICS
+# ------------------------------------------------
+
+pipeline_latency = Histogram(
+    "rag_pipeline_latency_seconds",
+    "Total pipeline latency",
+)
+
+audio_latency = Histogram(
+    "audio_record_latency_seconds",
+    "Audio recording latency"
+)
+
+stt_latency = Histogram(
+    "stt_latency_seconds",
+    "Speech-to-text latency"
+)
+
+retrieval_latency = Histogram(
+    "rag_retrieval_latency_seconds",
+    "Vector retrieval latency"
+)
+
+llm_latency = Histogram(
+    "llm_latency_seconds",
+    "LLM generation latency"
+)
+
+tts_latency = Histogram(
+    "tts_latency_seconds",
+    "Text-to-speech latency"
+)
+
+
+# ------------------------------------------------
+# QUERY METRICS
+# ------------------------------------------------
+
+query_length = Histogram(
+    "rag_query_length_chars",
+    "Length of user queries"
+)
+
+response_length = Histogram(
+    "rag_response_length_chars",
+    "Length of responses"
+)
+
+
+# ------------------------------------------------
+# RETRIEVAL METRICS
+# ------------------------------------------------
+
+documents_retrieved = Histogram(
+    "rag_documents_retrieved",
+    "Number of retrieved documents"
+)
+
+
+# ------------------------------------------------
+# LLM METRICS
+# ------------------------------------------------
+
+llm_requests_total = Counter(
+    "llm_requests_total",
+    "Total LLM requests"
+)
+
+
+# ------------------------------------------------
+# EMBEDDING METRICS
+# ------------------------------------------------
+
+embedding_requests_total = Counter(
+    "embedding_requests_total",
+    "Total embedding requests"
+)
+
+embedding_latency = Histogram(
+    "embedding_latency_seconds",
+    "Embedding generation latency"
+)
+
+
+# ------------------------------------------------
+# SYSTEM METRICS
+# ------------------------------------------------
+
+cpu_usage_percent = Gauge(
+    "system_cpu_usage_percent",
+    "CPU usage percent"
+)
+
+memory_usage_mb = Gauge(
+    "system_memory_usage_mb",
+    "Memory usage in MB"
+)
+
+process_threads = Gauge(
+    "process_threads",
+    "Number of threads"
+)
+
+
+# ------------------------------------------------
+# START PROMETHEUS SERVER
+# ------------------------------------------------
+
+start_http_server(8000, addr="0.0.0.0")
+
+
+# ------------------------------------------------
+# MAIN PIPELINE
+# ------------------------------------------------
+
+async def main():
+
+    rag = await build_rag()
+
+    print("\nProcessing document...\n")
+
+    await rag.process_document_complete(
+        file_path="./data/document.pdf",
+        output_dir="./output",
+        parse_method="auto"
+    )
+
+    print("\nDocument processed successfully\n")
+
+    while True:
+
+        user_choice = input("\nPress Enter to speak or type 'exit': ")
+
+        if user_choice.lower() == "exit":
+            break
+
+        # --------------------------
+        # CREATE CORRELATION ID
+        # --------------------------
+
+        correlation_id = str(uuid.uuid4())
+
+        print(f"\nRequest ID: {correlation_id}")
+
+        rag_active_requests.inc()
+
+        pipeline_start = time.time()
+
+        try:
+
+            # --------------------------
+            # AUDIO RECORD
+            # --------------------------
+
+            start = time.time()
+            audio_file = record_audio()
+            audio_latency.observe(time.time() - start)
+
+            # --------------------------
+            # STT
+            # --------------------------
+
+            start = time.time()
+            query = speech_to_text(audio_file)
+            stt_latency.observe(time.time() - start)
+
+            print("\nUser:", query)
+
+            query_length.observe(len(query))
+
+            # --------------------------
+            # RETRIEVAL
+            # --------------------------
+
+            start = time.time()
+
+            result = await rag.aquery(query, mode="hybrid")
+
+            retrieval_latency.observe(time.time() - start)
+
+            llm_requests_total.inc()
+
+            # --------------------------
+            # RESPONSE METRICS
+            # --------------------------
+
+            response_length.observe(len(result))
+
+            print("\nAI:", result)
+
+            # --------------------------
+            # TTS
+            # --------------------------
+
+            start = time.time()
+
+            speak(result)
+
+            tts_latency.observe(time.time() - start)
+
+            rag_requests_total.labels(status="success").inc()
+
+        except Exception as e:
+
+            rag_requests_total.labels(status="failed").inc()
+
+            print("Error:", e)
+
+        finally:
+
+            rag_active_requests.dec()
+
+        total_latency = time.time() - pipeline_start
+
+        pipeline_latency.observe(total_latency)
+
+        print("Pipeline latency:", total_latency)
+
+        # --------------------------
+        # SYSTEM METRICS
+        # --------------------------
+
+        cpu_usage_percent.set(psutil.cpu_percent())
+        memory_usage_mb.set(psutil.virtual_memory().used / (1024 * 1024))
+        process_threads.set(psutil.Process().num_threads())
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
