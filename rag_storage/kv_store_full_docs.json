@@ -1,16 +1,30 @@
 {
-  "doc-3221ace08e339ff9e596a45a16c03760": {
-    "content": "Welcome to Smallpdf \n\nReady to take document management to the next level? \n\nDigital Documents—All In One Place \n\nWith the new Smallpdf experience, you can freely upload, organize, and share digital documents. When you enable the 'Storage' option, we'll also store all processed files here. \n\nEnhance Documents in One Click \n\nWhen you right-click on a file, we'll present you with an array of options to convert, compress, or modify it. \n\nAccess Files Anytime, Anywhere \n\nYou can access files stored on Smallpdf from your computer, phone, or tablet. We'll also sync files from the Smallpdf Mobile App to our online portal \n\nCollaborate With Others \n\nForget mundane administrative tasks. With Smallpdf, you can request e-signatures, send large files, or even enable the Smallpdf G Suite App for your entire organization.",
-    "file_path": "document.pdf",
-    "create_time": 1772711176,
-    "update_time": 1772711176,
-    "_id": "doc-3221ace08e339ff9e596a45a16c03760"
+  "doc-7f356c3a6cd4b479793dd2eba4d1cee8": {
+    "content": "data/document.txt Mon Mar 09 10:20:15 2026 1\nArtificial Intelligence\n \nArtificial Intelligence (AI) is a field of computer science focused on creating machines th\nat can perform tasks requiring human intelligence.\n \nMachine Learning is a subset of AI where models learn patterns from data.\n \nDeep Learning uses neural networks with many layers.\n \nApplications include chatbots, recommendation systems, and autonomous vehicles.",
+    "file_path": "ai.pdf",
+    "create_time": 1773744506,
+    "update_time": 1773744506,
+    "_id": "doc-7f356c3a6cd4b479793dd2eba4d1cee8"
   },
-  "doc-9401e581ea2eb0b2f1332c2d727150cb": {
-    "content": "Welcome to Smallpdf \n\nReady to take document management to the next level? \n\nDigital Documents—All In One Place \n\nWith the new Smallpdf experience, you can freely upload, organize, and share digital documents. When you enable the 'Storage' option, we'll also store all processed files here. \n\nEnhance Documents in One Click \n\nWhen you right-click on a file, we'll present you with an array of options to convert, compress, or modify it. \n\nAccess Files Anytime, Anywhere \n\nYou can access files stored on Smallpdf from your computer, phone, or tablet. We'll also sync files from the Smallpdf Mobile App to our online portal \n\nCollaborate With Others \n\nForget mundane administrative tasks. With Smallpdf, you can request e-signatures, send large files, or even enable the Smallpdf G Suite App for your entire organization.",
+  "doc-ee21a68f4b6ac58b597b3aa7dda3fc10": {
+    "content": "Welcome to Smallpdf\nDigital Documents—All In One Place\nAccess Files Anytime, Anywhere \nEnhance Documents in One Click \nCollaborate With Others \nWith the new Smallpdf experience, you can \nfreely upload, organize, and share digital \ndocuments. When you enable the ‘Storage’ \noption, we’ll also store all processed files here. \nYou can access files stored on Smallpdf from \nyour computer, phone, or tablet. We’ll also \nsync files from the Smallpdf Mobile App to our \nonline portal\nWhen you right-click on a file, we’ll present \nyou with an array of options to convert, \ncompress, or modify it. \nForget mundane administrative tasks. With \nSmallpdf, you can request e-signatures, send \nlarge files, or even enable the Smallpdf G Suite \nApp for your entire organization. \nReady to take document management to the next level?",
     "file_path": "document.pdf",
-    "create_time": 1773032966,
-    "update_time": 1773032966,
-    "_id": "doc-9401e581ea2eb0b2f1332c2d727150cb"
+    "create_time": 1773744878,
+    "update_time": 1773744878,
+    "_id": "doc-ee21a68f4b6ac58b597b3aa7dda3fc10"
+  },
+  "doc-87add34af42752ebe68b1dec92af60e0": {
+    "content": "All Readings:IntroductiontoGenerativeAI\nKindly note that the 30minutes indicatedontheplaormconsiders thetimethat it maytake you to browse through the reading resources provided. The total time requireddependsonthereadingsyoudecidetoexplorefuher.\nAssembledreadingsongenerativeAI:\n● AskaTechspe: What isgenerativeAI?hps://blog.google/inside-google/googlers/ask-a-techspe/what-is-generative-ai/\n● What isgenerativeAI?hps://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-generative-ai\n● GoogleResearch, 2022&beyond: Generativemodels:hps://ai.googleblog.com/2023/01/google-research-2022-beyond-language.html#GenerativeModels\n● Buildingthemost openandinnovativeAI ecosystem:hps://cloud.google.com/blog/products/ai-machine-learning/building-an-open-generative-ai-paner-ecosystem\n● GenerativeAI ishere. WhoShouldControl It?hps://www.nytimes.com/2022/10/21/podcasts/hard-fork-generative-aicial-intelligence.html\n● StanfordU&Google’sGenerativeAgentsProduceBelievableProxiesofHumanBehaviors:hps://syncedreview.com/2023/04/12/stanford-u-googles-generative-agents-produce-believable-proxies-of-human-behaviours/\n● GenerativeAI: PerspectivesfromStanfordHAI:hps://hai.stanford.edu/sites/default/les/2023-03/Generative_AI_HAI_Perspectives\n● GenerativeAI at Work:hps://www.nber.org/system/les/working_papers/w31161/w31161.pdf\n● ThefutureofgenerativeAI isniche, not generalized:hps://www.technologyreview.com/2023/04/27/1072102/the-future-of-generative-ai-is-niche-not-generalized/\n\n● TheimplicationsofGenerativeAI forbusinesses:hps://www2.deloie.com/us/en/pages/consulting/aicles/generative-aicial-intelligence.html\n● ProactiveRiskManagement inGenerativeAI:hps://www2.deloie.com/us/en/pages/consulting/aicles/responsible-use-of-generative-ai.html\n● HowGenerativeAI IsChangingCreativeWork:hps://hbr.org/2022/11/how-generative-ai-is-changing-creative-work\nAssembledreadingsonlargelanguagemodels:\n● NLP'sImageNet moment hasarrived: hps://thegradient.pub/nlp-imagenet/\n● LaMDA: ourbreakthroughconversationtechnology:hps://blog.google/technology/ai/lamda/\n● LanguageModelsareFew-Shot Learners:hps://proceedings.neurips.cc/paper/2020/le/1457c0d6bfcb4967418b8ac142f64a-Paper.pdf\n● ThePowerofScaleforParameter-Ecient Prompt Tuning:hps://arxiv.org/pdf/2104.08691.pdf\n● GoogleResearch, 2022&beyond: Languagemodels:hps://ai.googleblog.com/2023/01/google-research-2022-beyond-language.html#LanguageModels\n● Solvingamachine-learningmystery:hps://news.mit.edu/2023/large-language-models-in-context-learning-0207\nAdditional Resources:\n● AentionisAll YouNeed: hps://research.google/pubs/pub46201/\n● Transformer: ANovel Neural NetworkArchitectureforLanguageUnderstanding:hps://ai.googleblog.com/2017/08/transformer-novel-neural-network.html\n● TransformeronWikipedia:hps://en.wikipedia.org/wiki/Transformer_(machine_learning_model)#:~:text=Transformers%20were%20introduced%20in%202017,allowing%20training%20on%20larger%20datasets.\n● What isTemperatureinNLP?hps://lukesalamone.github.io/posts/what-is-temperature/\n● Model Garden: hps://cloud.google.com/model-garden\n● Auto-generatedSummariesinGoogleDocs:hps://ai.googleblog.com/2022/03/auto-generated-summaries-in-google-docs.html",
+    "file_path": "T-GENAIHP-I-m1-l7-en-file-8.en.pdf",
+    "create_time": 1773746350,
+    "update_time": 1773746350,
+    "_id": "doc-87add34af42752ebe68b1dec92af60e0"
+  },
+  "doc-a4fca718c5bd8c7050bc8123db361080": {
+    "content": "customer_id,customer_name,email,city,signup_date\r\n1,\"Amit Sharma\",\"amit.sharma@email.com\",\"Hyderabad\",2023-01-10 00:00:00.0000000\r\n2,\"Neha Verma\",\"neha.verma@email.com\",\"Mumbai\",2023-01-15 00:00:00.0000000\r\n3,\"Rahul Reddy\",\"rahul.reddy@email.com\",\"Bangalore\",2023-02-05 00:00:00.0000000\r\n4,\"Priya Nair\",\"priya.nair@email.com\",\"Chennai\",2023-02-12 00:00:00.0000000\r\n5,\"Arjun Patel\",\"arjun.patel@email.com\",\"Ahmedabad\",2023-02-20 00:00:00.0000000",
+    "file_path": "dbo.customer_info.txt",
+    "create_time": 1774343196,
+    "update_time": 1774343196,
+    "_id": "doc-a4fca718c5bd8c7050bc8123db361080"
   }
 }

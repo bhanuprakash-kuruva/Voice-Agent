@@ -1,253 +1,565 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
-  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
-  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
-  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
-  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
-  <key id="d8" for="edge" attr.name="description" attr.type="string" />
-  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
-  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
-  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
-  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
-  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
-  <key id="d2" for="node" attr.name="description" attr.type="string" />
-  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
-  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
-  <graph edgedefault="undirected">
-    <node id="Smallpdf">
-      <data key="d0">Smallpdf</data>
-      <data key="d1">organization</data>
-      <data key="d2">Smallpdf is a document management service providing tools for digital document organization, storage, and modification.&lt;SEP&gt;Smallpdf is a document management service providing tools for digital document organization, storage, and modification.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033558</data>
-      <data key="d6" />
-    </node>
-    <node id="Digital Documents">
-      <data key="d0">Digital Documents</data>
-      <data key="d1">category</data>
-      <data key="d2">Digital Documents encompasses various files managed and processed within Smallpdf's platform.&lt;SEP&gt;Digital Documents encompasses various files managed and processed within Smallpdf's platform.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033558</data>
-      <data key="d6" />
-    </node>
-    <node id="Storage">
-      <data key="d0">Storage</data>
-      <data key="d1">method</data>
-      <data key="d2">Storage is a feature enabling the saving of processed files within Smallpdf's online portal.&lt;SEP&gt;Storage is a feature enabling the saving of processed files within Smallpdf's online portal.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033558</data>
-      <data key="d6" />
-    </node>
-    <node id="Convert, Compress, or Modify Files">
-      <data key="d0">Convert, Compress, or Modify Files</data>
-      <data key="d1">method</data>
-      <data key="d2">Smallpdf offers options to alter files through conversion, compression, or modification when right-clicking on a file.&lt;SEP&gt;Smallpdf offers options to alter files through conversion, compression, or modification when right-clicking on a file.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033558</data>
-      <data key="d6" />
-    </node>
-    <node id="Files">
-      <data key="d0">Files</data>
-      <data key="d1">category</data>
-      <data key="d2">Files encompass documents and other data that can be managed, stored, or shared through Smallpdf's services.&lt;SEP&gt;Files encompass documents and other data that can be managed, stored, or shared through Smallpdf's services.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="Online Portal">
-      <data key="d0">Online Portal</data>
-      <data key="d1">category</data>
-      <data key="d2">Online Portal is the central location for accessing files, syncing with Smallpdf's mobile app, and utilizing Smallpdf's services.&lt;SEP&gt;Online Portal is the central location for accessing files, syncing with Smallpdf's mobile app, and utilizing Smallpdf's services.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="Smallpdf G Suite App">
-      <data key="d0">Smallpdf G Suite App</data>
-      <data key="d1">organization</data>
-      <data key="d2">Smallpdf G Suite App is a feature allowing organizations to integrate Smallpdf services into their Google Suite environment.&lt;SEP&gt;Smallpdf G Suite App is a feature allowing organizations to integrate Smallpdf services into their Google Suite environment.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="e-Signatures">
-      <data key="d0">e-Signatures</data>
-      <data key="d1">category</data>
-      <data key="d2">e-Signatures are digital signatures provided through Smallpdf's services to facilitate document signing online.&lt;SEP&gt;e-Signatures are digital signatures provided through Smallpdf's services to facilitate document signing online.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="Large Files">
-      <data key="d0">Large Files</data>
-      <data key="d1">category</data>
-      <data key="d2">Large Files are managed through Smallpdf, including sharing and sending capabilities.&lt;SEP&gt;Large Files are managed through Smallpdf, including sharing and sending capabilities.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="Alex">
-      <data key="d0">Alex</data>
-      <data key="d1">person</data>
-      <data key="d2">Alex is a character who experiences frustration and is observant of the dynamics among other characters.&lt;SEP&gt;Alex is a character who experiences frustration and is observant of the dynamics among other characters.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="Taylor">
-      <data key="d0">Taylor</data>
-      <data key="d1">person</data>
-      <data key="d2">Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective.&lt;SEP&gt;Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="Jordan">
-      <data key="d0">Jordan</data>
-      <data key="d1">person</data>
-      <data key="d2">Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device.&lt;SEP&gt;Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="Cruz">
-      <data key="d0">Cruz</data>
-      <data key="d1">person</data>
-      <data key="d2">Cruz is associated with a vision of control and order, influencing the dynamics among other characters.&lt;SEP&gt;Cruz is associated with a vision of control and order, influencing the dynamics among other characters.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="The Device">
-      <data key="d0">The Device</data>
-      <data key="d1">equipment</data>
-      <data key="d2">The Device is central to the story, with potential game-changing implications, and is revered by Taylor.&lt;SEP&gt;The Device is central to the story, with potential game-changing implications, and is revered by Taylor.</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1773033559</data>
-      <data key="d6" />
-    </node>
-    <node id="control">
-      <data key="d0">control</data>
-      <data key="d3">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d2">Cruz's vision of control and order affects how he interacts with others and shapes their decisions.</data>
-      <data key="d1">UNKNOWN</data>
-      <data key="d4">document.pdf</data>
-      <data key="d5">1772712072</data>
-      <data key="d6" />
-    </node>
-    <edge source="Smallpdf" target="Digital Documents">
-      <data key="d7">2.0</data>
-      <data key="d8">Smallpdf offers tools for managing digital documents.&lt;SEP&gt;Smallpdf offers tools for managing digital documents.</data>
-      <data key="d9">service</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033560</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Smallpdf" target="Storage">
-      <data key="d7">2.0</data>
-      <data key="d8">Smallpdf provides a storage feature for processed files.&lt;SEP&gt;Smallpdf provides a storage feature for processed files.</data>
-      <data key="d9">service</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033560</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Smallpdf" target="Convert, Compress, or Modify Files">
-      <data key="d7">2.0</data>
-      <data key="d8">Smallpdf offers options for file manipulation when right-clicking on a file.&lt;SEP&gt;Smallpdf offers options for file manipulation when right-clicking on a file.</data>
-      <data key="d9">service</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033560</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Smallpdf" target="Smallpdf G Suite App">
-      <data key="d7">2.0</data>
-      <data key="d8">Integration of Smallpdf services into organizations' Google Suite environments is facilitated by the Smallpdf G Suite App.&lt;SEP&gt;Integration of Smallpdf services into organizations' Google Suite environments is facilitated by the Smallpdf G Suite App.</data>
-      <data key="d9">integration</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033561</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Smallpdf" target="e-Signatures">
-      <data key="d7">2.0</data>
-      <data key="d8">Smallpdf provides an e-signature feature to facilitate online signing of documents.&lt;SEP&gt;Smallpdf provides an e-signature feature to facilitate online signing of documents.</data>
-      <data key="d9">feature</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033561</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Smallpdf" target="Large Files">
-      <data key="d7">2.0</data>
-      <data key="d8">Smallpdf manages large files through sharing and sending capabilities.&lt;SEP&gt;Smallpdf manages large files through sharing and sending capabilities.</data>
-      <data key="d9">management</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033561</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Files" target="Online Portal">
-      <data key="d7">2.0</data>
-      <data key="d8">Files can be accessed from various devices through Smallpdf's online portal and mobile app.&lt;SEP&gt;Files can be accessed from various devices through Smallpdf's online portal and mobile app.</data>
-      <data key="d9">access</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033560</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Alex" target="Taylor">
-      <data key="d7">2.0</data>
-      <data key="d8">Alex observes Taylor's authoritarian behavior and notes the impact on the group dynamics.&lt;SEP&gt;Alex observes Taylor's authoritarian behavior and notes the impact on the group dynamics.</data>
-      <data key="d9">observation,power dynamics</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033560</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Taylor" target="The Device">
-      <data key="d7">2.0</data>
-      <data key="d8">Taylor's moment of reverence towards the device signals a shift in focus or priorities.&lt;SEP&gt;Taylor's moment of reverence towards the device signals a shift in focus or priorities.</data>
-      <data key="d9">change,reverence</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033560</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Jordan" target="The Device">
-      <data key="d7">2.0</data>
-      <data key="d8">Jordan's interaction with the device involves seeking new knowledge or advancements.&lt;SEP&gt;Jordan's interaction with the device involves seeking new knowledge or advancements.</data>
-      <data key="d9">discovery,interaction</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033560</data>
-      <data key="d13" />
-    </edge>
-    <edge source="Cruz" target="control">
-      <data key="d7">2.0</data>
-      <data key="d8">Cruz's vision of control and order affects how he interacts with others and shapes their decisions.&lt;SEP&gt;Cruz's vision of control and order affects how he interacts with others and shapes their decisions.</data>
-      <data key="d9">vision</data>
-      <data key="d10">chunk-f2e3ac4c97df475055e93566372f518f</data>
-      <data key="d11">document.pdf</data>
-      <data key="d12">1773033560</data>
-      <data key="d13" />
-    </edge>
-  </graph>
-</graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Method">
+  <data key="d0">Method</data>
+  <data key="d1">chunk-194e2a42f6613062f433da4651cfee00&lt;SEP&gt;chunk-ce7f881358739dbdcfcb06965336bc4a</data>
+  <data key="d2">has, several, has-been-developed&lt;SEP&gt;The article outlines a comprehensive guide to using generative AI responsibly.</data>
+  <data key="d3">guide</data>
+  <data key="d4">ai.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748958</data>
+  <data key="d6"></data>
+</node>
+<node id="data/document.txt">
+  <data key="d0">data/document.txt</data>
+  <data key="d1">chunk-194e2a42f6613062f433da4651cfee00</data>
+  <data key="d2">has, several, has-been-developed</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">ai.pdf</data>
+  <data key="d5">1773745175</data>
+  <data key="d6"></data>
+</node>
+<node id="Event">
+  <data key="d0">Event</data>
+  <data key="d1">chunk-194e2a42f6613062f433da4651cfee00</data>
+  <data key="d2">organized, several, has-been-held</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">ai.pdf</data>
+  <data key="d5">1773745178</data>
+  <data key="d6"></data>
+</node>
+<node id="Alex">
+  <data key="d0">Alex</data>
+  <data key="d3">person</data>
+  <data key="d2">Alex is a character who experiences frustration and is observant of the dynamics among other characters.&lt;SEP&gt;Alex is a character who experiences frustration and is observant of the dynamics among other characters.</data>
+  <data key="d1">chunk-51ed70a831f6cc0f9e9e722fcd192d66&lt;SEP&gt;chunk-26f1491d3fab7d52cc4eefe01b816a67&lt;SEP&gt;chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-2e6557bde50f7cc1fb2d6f0065450947&lt;SEP&gt;chunk-4863bb638ec59bc8ab2610d952121377&lt;SEP&gt;chunk-51541b3a2fa670d081379637087f4f08</data>
+  <data key="d4">document.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748946</data>
+  <data key="d6"></data>
+</node>
+<node id="Taylor">
+  <data key="d0">Taylor</data>
+  <data key="d3">person</data>
+  <data key="d2">Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective.&lt;SEP&gt;Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device, indicating a change in perspective.&lt;SEP&gt;Taylor is portrayed with authoritarian certainty and shows a moment of reverence towards a device.&lt;SEP&gt;Taylor is a person who has authoritarian certainty and shows respect towards their subordinates.</data>
+  <data key="d1">chunk-51ed70a831f6cc0f9e9e722fcd192d66&lt;SEP&gt;chunk-26f1491d3fab7d52cc4eefe01b816a67&lt;SEP&gt;chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-2e6557bde50f7cc1fb2d6f0065450947&lt;SEP&gt;chunk-4863bb638ec59bc8ab2610d952121377&lt;SEP&gt;chunk-51541b3a2fa670d081379637087f4f08</data>
+  <data key="d4">document.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748946</data>
+  <data key="d6"></data>
+</node>
+<node id="Jordan">
+  <data key="d0">Jordan</data>
+  <data key="d3">person</data>
+  <data key="d2">Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device.&lt;SEP&gt;Jordan shares a commitment to discovery and has a significant interaction with Taylor regarding a device.&lt;SEP&gt;Jordan is a character who shares a commitment to discovery with Taylor, opposing Cruz's vision.</data>
+  <data key="d1">chunk-51ed70a831f6cc0f9e9e722fcd192d66&lt;SEP&gt;chunk-26f1491d3fab7d52cc4eefe01b816a67&lt;SEP&gt;chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-2e6557bde50f7cc1fb2d6f0065450947&lt;SEP&gt;chunk-4863bb638ec59bc8ab2610d952121377&lt;SEP&gt;chunk-51541b3a2fa670d081379637087f4f08</data>
+  <data key="d4">document.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748950</data>
+  <data key="d6"></data>
+</node>
+<node id="Cruz">
+  <data key="d0">Cruz</data>
+  <data key="d3">person</data>
+  <data key="d2">Cruz is associated with a vision of control and order, influencing the dynamics among other characters.&lt;SEP&gt;Cruz is associated with a vision of control and order, influencing the dynamics among other characters.</data>
+  <data key="d1">chunk-51ed70a831f6cc0f9e9e722fcd192d66&lt;SEP&gt;chunk-26f1491d3fab7d52cc4eefe01b816a67&lt;SEP&gt;chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-2e6557bde50f7cc1fb2d6f0065450947&lt;SEP&gt;chunk-4863bb638ec59bc8ab2610d952121377&lt;SEP&gt;chunk-51541b3a2fa670d081379637087f4f08</data>
+  <data key="d4">document.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748950</data>
+  <data key="d6"></data>
+</node>
+<node id="The Device">
+  <data key="d0">The Device</data>
+  <data key="d3">equipment</data>
+  <data key="d2">The Device is central to the story, with potential game-changing implications, and is revered by Taylor.&lt;SEP&gt;The Device is central to the story, with potential game-changing implications, and is revered by Taylor.&lt;SEP&gt;The Device is central to the story, with potential game-changing implications.</data>
+  <data key="d1">chunk-51ed70a831f6cc0f9e9e722fcd192d66&lt;SEP&gt;chunk-26f1491d3fab7d52cc4eefe01b816a67&lt;SEP&gt;chunk-2e6557bde50f7cc1fb2d6f0065450947&lt;SEP&gt;chunk-4863bb638ec59bc8ab2610d952121377&lt;SEP&gt;chunk-51541b3a2fa670d081379637087f4f08</data>
+  <data key="d4">document.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748957</data>
+  <data key="d6"></data>
+</node>
+<node id="The Global Tech Index">
+  <data key="d0">The Global Tech Index</data>
+  <data key="d3">category</data>
+  <data key="d2">The Global Tech Index tracks the performance of major technology stocks and experienced a 3.4% decline today.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748951</data>
+  <data key="d6"></data>
+</node>
+<node id="Gold Futures">
+  <data key="d0">Gold Futures</data>
+  <data key="d3">product</data>
+  <data key="d2">Gold futures rose by 1.5%, reaching $2,080 per ounce, as investors sought safe-haven assets.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748951</data>
+  <data key="d6"></data>
+</node>
+<node id="Market Selloff">
+  <data key="d0">Market Selloff</data>
+  <data key="d3">category</data>
+  <data key="d2">Market selloff refers to the significant decline in stock values due to investor concerns over interest rates and regulations.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748952</data>
+  <data key="d6"></data>
+</node>
+<node id="Federal Reserve">
+  <data key="d0">Federal Reserve</data>
+  <data key="d3">organization</data>
+  <data key="d2">The Federal Reserve is the governing body overseeing the World Athletics Championship and record validations.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748952</data>
+  <data key="d6"></data>
+</node>
+<node id="World Athletics Championship">
+  <data key="d0">World Athletics Championship</data>
+  <data key="d3">event</data>
+  <data key="d2">The World Athletics Championship is a global sports competition featuring top athletes in track and field.&lt;SEP&gt;The World Athletics Championship is being hosted in Tokyo.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748953</data>
+  <data key="d6"></data>
+</node>
+<node id="Noah Carter">
+  <data key="d0">Noah Carter</data>
+  <data key="d3">person</data>
+  <data key="d2">Noah Carter is a sprinter who set a new record in the 100m sprint at the World Athletics Championship.&lt;SEP&gt;Noah Carter set a new 100m sprint record at the World Athletics Championship.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748953</data>
+  <data key="d6"></data>
+</node>
+<node id="100m Sprint Record">
+  <data key="d0">100m Sprint Record</data>
+  <data key="d3">category</data>
+  <data key="d2">The 100m sprint record is a benchmark in athletics, recently broken by Noah Carter.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748954</data>
+  <data key="d6"></data>
+</node>
+<node id="Carbon-Fiber Spikes">
+  <data key="d0">Carbon-Fiber Spikes</data>
+  <data key="d3">equipment</data>
+  <data key="d2">Carbon-fiber spikes are advanced sprinting shoes that provide enhanced speed and traction.&lt;SEP&gt;Noah Carter used carbon-fiber spikes to enhance performance during the race.&lt;SEP&gt;advanced sprinting shoes that provide enhanced speed and traction.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748954</data>
+  <data key="d6"></data>
+</node>
+<node id="World Athletics Federation">
+  <data key="d0">World Athletics Federation</data>
+  <data key="d3">organization</data>
+  <data key="d2">The World Athletics Federation is the governing body overseeing the World Athletics Championship and record validations.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748955</data>
+  <data key="d6"></data>
+</node>
+<node id="GenerativeAI">
+  <data key="d0">GenerativeAI</data>
+  <data key="d3">person</data>
+  <data key="d2">Generative AI is a type of AI that can generate human-quality text.</data>
+  <data key="d1">chunk-f84bd6223a2df2378a55c5b382c3f120</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748955</data>
+  <data key="d6"></data>
+</node>
+<node id="StanfordU&amp;Googles">
+  <data key="d0">StanfordU&amp;Googles</data>
+  <data key="d3">organization</data>
+  <data key="d2">Stanford University and Google are involved in the development and research of Generative AI.</data>
+  <data key="d1">chunk-f84bd6223a2df2378a55c5b382c3f120</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748956</data>
+  <data key="d6"></data>
+</node>
+<node id="Environment">
+  <data key="d0">Environment</data>
+  <data key="d3">organization</data>
+  <data key="d2">Ecosystem plays a crucial role in the generation of human-quality text.</data>
+  <data key="d1">chunk-f84bd6223a2df2378a55c5b382c3f120</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748956</data>
+  <data key="d6"></data>
+</node>
+<node id="{}">
+  <data key="d0">{}</data>
+  <data key="d3">{}</data>
+  <data key="d2">{}'</data>
+  <data key="d1">chunk-985c2949fe714a26b6c304bce006b3ec</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748957</data>
+  <data key="d6"></data>
+</node>
+<node id="Concept">
+  <data key="d0">Concept</data>
+  <data key="d3">technology</data>
+  <data key="d2">Generative AI is a type of artificial intelligence that goes beyond the capabilities of traditional AI.</data>
+  <data key="d1">chunk-ce7f881358739dbdcfcb06965336bc4a</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748958</data>
+  <data key="d6"></data>
+</node>
+<node id="Tokyo">
+  <data key="d0">Tokyo</data>
+  <data key="d3">location</data>
+  <data key="d2">Tokyo is the host city of the World Athletics Championship.</data>
+  <data key="d1">chunk-c34bf4364505dde0bb0412c96222f4b6</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748959</data>
+  <data key="d6"></data>
+</node>
+<node id="data">
+  <data key="d0">data</data>
+  <data key="d3">dataset-name</data>
+  <data key="d2">A Natural Language Processing Dataset of Text and Code|</data>
+  <data key="d1">chunk-c19074ab4eb4603baa99992bc505262b</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748959</data>
+  <data key="d6"></data>
+</node>
+<node id="concept">
+  <data key="d0">concept</data>
+  <data key="d3">concept-title</data>
+  <data key="d2">Natural Language Processing|</data>
+  <data key="d1">chunk-c19074ab4eb4603baa99992bc505262b</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748960</data>
+  <data key="d6"></data>
+</node>
+<node id="method">
+  <data key="d0">method</data>
+  <data key="d3">method-name</data>
+  <data key="d2">Extractive Textual Features |</data>
+  <data key="d1">chunk-c19074ab4eb4603baa99992bc505262b</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748960</data>
+  <data key="d6"></data>
+</node>
+<node id="content">
+  <data key="d0">content</data>
+  <data key="d3">article-content</data>
+  <data key="d2">A large language model has extracted the text from a research article |</data>
+  <data key="d1">chunk-c19074ab4eb4603baa99992bc505262b</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748961</data>
+  <data key="d6"></data>
+</node>
+<node id="artifact">
+  <data key="d0">artifact</data>
+  <data key="d3">article-artifact</data>
+  <data key="d2">An AI has extracted a unique article artifact |</data>
+  <data key="d1">chunk-c19074ab4eb4603baa99992bc505262b</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748961</data>
+  <data key="d6"></data>
+</node>
+<node id="Tech Giants">
+  <data key="d0">Tech Giants</data>
+  <data key="d3">category</data>
+  <data key="d2">The tech giants are facing a sharp downturn in stock markets today, with the global tech index dropping by 3.4% in midday trading.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748962</data>
+  <data key="d6"></data>
+</node>
+<node id="Microsoft">
+  <data key="d0">Microsoft</data>
+  <data key="d3">organization</data>
+  <data key="d2">Microsoft is one of the biggest tech companies that has been deeply affected by the downturn.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748962</data>
+  <data key="d6"></data>
+</node>
+<node id="Alphabet">
+  <data key="d0">Alphabet</data>
+  <data key="d3">organization</data>
+  <data key="d2">Alphabet is another major tech company that has been significantly impacted by the downturn.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748963</data>
+  <data key="d6"></data>
+</node>
+<node id="Google">
+  <data key="d0">Google</data>
+  <data key="d3">organization</data>
+  <data key="d2">Google is one of the largest tech companies that has been deeply impacted by the downturn.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748963</data>
+  <data key="d6"></data>
+</node>
+<node id="Amazon">
+  <data key="d0">Amazon</data>
+  <data key="d3">organization</data>
+  <data key="d2">Amazon is one of the largest e-commerce companies that has been deeply impacted by the downturn.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748963</data>
+  <data key="d6"></data>
+</node>
+<node id="Netflix">
+  <data key="d0">Netflix</data>
+  <data key="d3">organization</data>
+  <data key="d2">Netflix is a streaming service that has been deeply impacted by the downturn.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748964</data>
+  <data key="d6"></data>
+</node>
+<node id="Apple">
+  <data key="d0">Apple</data>
+  <data key="d3">organization</data>
+  <data key="d2">Apple is a consumer electronics company that has been deeply affected by the downturn.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748964</data>
+  <data key="d6"></data>
+</node>
+<node id="Baidu">
+  <data key="d0">Baidu</data>
+  <data key="d3">organization</data>
+  <data key="d2">Baidu is a Chinese tech company that has been deeply affected by the downturn.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748965</data>
+  <data key="d6"></data>
+</node>
+<node id="The Sandbox">
+  <data key="d0">The Sandbox</data>
+  <data key="d3">software</data>
+  <data key="d2">The Sandbox is a non-profit organization that is focused on digital inclusion.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748966</data>
+  <data key="d6"></data>
+</node>
+<node id="OpenAI">
+  <data key="d0">OpenAI</data>
+  <data key="d3">organization</data>
+  <data key="d2">OpenAI is a company that develops and licenses AI technology.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748966</data>
+  <data key="d6"></data>
+</node>
+<node id="DeepMind">
+  <data key="d0">DeepMind</data>
+  <data key="d3">organization</data>
+  <data key="d2">DeepMind is a company that develops and licenses AI technology.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748966</data>
+  <data key="d6"></data>
+</node>
+<node id="ChatGPT">
+  <data key="d0">ChatGPT</data>
+  <data key="d3">product</data>
+  <data key="d2">ChatGPT is an AI language model that has been used for various purposes such as natural language processing.</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748967</data>
+  <data key="d6"></data>
+</node>
+<node id="Project X">
+  <data key="d0">Project X</data>
+  <data key="d3">location</data>
+  <data key="d2">Tokyo</data>
+  <data key="d1">chunk-51541b3a2fa670d081379637087f4f08</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748967</data>
+  <data key="d6"></data>
+</node>
+<node id="downward">
+  <data key="d0">downward</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d2">The tech giants are facing a sharp downturn in stock markets today, with the Global Tech Index dropping by 3.4%.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748971</data>
+  <data key="d6"></data>
+</node>
+<node id="upward">
+  <data key="d0">upward</data>
+  <data key="d1">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d2">The Sandbox's work has led to an upward trajectory in donations and services.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d5">1773748976</data>
+  <data key="d6"></data>
+</node>
+<edge source="Method" target="data/document.txt">
+  <data key="d7">1.0</data>
+  <data key="d8">has, several, has-been-developed</data>
+  <data key="d9">text</data>
+  <data key="d10">chunk-194e2a42f6613062f433da4651cfee00</data>
+  <data key="d11">ai.pdf</data>
+  <data key="d12">1773745177</data>
+  <data key="d13"></data>
+</edge>
+<edge source="data/document.txt" target="Event">
+  <data key="d7">1.0</data>
+  <data key="d8">organized, several, has-been-held</data>
+  <data key="d9">text</data>
+  <data key="d10">chunk-194e2a42f6613062f433da4651cfee00</data>
+  <data key="d11">ai.pdf</data>
+  <data key="d12">1773745179</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Alex" target="Taylor">
+  <data key="d7">4.0</data>
+  <data key="d8">Alex observes Taylor's authoritarian behavior and notes changes in Taylor's attitude toward the device.&lt;SEP&gt;Alex observes Taylor's authoritarian behavior and notes changes in Taylor's attitude toward the device.</data>
+  <data key="d9">observation,power dynamics</data>
+  <data key="d10">chunk-51ed70a831f6cc0f9e9e722fcd192d66&lt;SEP&gt;chunk-26f1491d3fab7d52cc4eefe01b816a67&lt;SEP&gt;chunk-4863bb638ec59bc8ab2610d952121377&lt;SEP&gt;chunk-51541b3a2fa670d081379637087f4f08</data>
+  <data key="d11">document.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748969</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Alex" target="Jordan">
+  <data key="d7">4.0</data>
+  <data key="d8">Alex and Jordan share a commitment to discovery, which contrasts with Cruz's vision.&lt;SEP&gt;Alex and Jordan share a commitment to discovery, which contrasts with Cruz's vision of control and order.</data>
+  <data key="d9">rebellion,shared goals</data>
+  <data key="d10">chunk-51ed70a831f6cc0f9e9e722fcd192d66&lt;SEP&gt;chunk-26f1491d3fab7d52cc4eefe01b816a67&lt;SEP&gt;chunk-4863bb638ec59bc8ab2610d952121377&lt;SEP&gt;chunk-51541b3a2fa670d081379637087f4f08</data>
+  <data key="d11">document.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748970</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Taylor" target="The Device">
+  <data key="d7">3.0</data>
+  <data key="d8">Taylor shows reverence towards the device, indicating its importance and potential impact.&lt;SEP&gt;Taylor shows reverence towards the device, indicating its importance and potential impact.</data>
+  <data key="d9">reverence,technological significance</data>
+  <data key="d10">chunk-51ed70a831f6cc0f9e9e722fcd192d66&lt;SEP&gt;chunk-26f1491d3fab7d52cc4eefe01b816a67&lt;SEP&gt;chunk-4863bb638ec59bc8ab2610d952121377</data>
+  <data key="d11">document.pdf&lt;SEP&gt;T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748969</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Noah Carter" target="100m Sprint Record">
+  <data key="d7">1.0</data>
+  <data key="d8">performed at the World Athletics Championship.</data>
+  <data key="d9">athlete achievement,record-breaking</data>
+  <data key="d10">chunk-c34bf4364505dde0bb0412c96222f4b6</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748972</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Tech Giants" target="downward">
+  <data key="d7">1.0</data>
+  <data key="d8">The tech giants are facing a sharp downturn in stock markets today, with the Global Tech Index dropping by 3.4%.</data>
+  <data key="d9">Downturn of stock markets</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748972</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Microsoft" target="downward">
+  <data key="d7">1.0</data>
+  <data key="d8">Microsoft's stock has declined by 10% in the past year.</data>
+  <data key="d9">Downward trajectory on stock exchange</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748973</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Alphabet" target="downward">
+  <data key="d7">1.0</data>
+  <data key="d8">Alphabet's stock has declined by 15% in the past year.</data>
+  <data key="d9">Downward trajectory on stock exchange</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748974</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Google" target="downward">
+  <data key="d7">1.0</data>
+  <data key="d8">Google's stock has declined by 20% in the past year.</data>
+  <data key="d9">Downward trajectory on stock exchange</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748974</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Amazon" target="downward">
+  <data key="d7">1.0</data>
+  <data key="d8">Amazon's stock has declined by 25% in the past year.</data>
+  <data key="d9">Downward trajectory on stock exchange</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748975</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Netflix" target="downward">
+  <data key="d7">1.0</data>
+  <data key="d8">Netflix's stock has declined by 30% in the past year.</data>
+  <data key="d9">Downward trajectory on stock exchange</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748975</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Apple" target="downward">
+  <data key="d7">1.0</data>
+  <data key="d8">Apple's stock has declined by 35% in the past year.</data>
+  <data key="d9">Downward trajectory on stock exchange</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748976</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Baidu" target="downward">
+  <data key="d7">1.0</data>
+  <data key="d8">Baidu's stock has declined by 40% in the past year.</data>
+  <data key="d9">Downward trajectory on stock exchange</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748976</data>
+  <data key="d13"></data>
+</edge>
+<edge source="The Sandbox" target="upward">
+  <data key="d7">1.0</data>
+  <data key="d8">The Sandbox's work has led to an upward trajectory in donations and services.</data>
+  <data key="d9">Upward trajectory with the purpose of digital inclusion</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748977</data>
+  <data key="d13"></data>
+</edge>
+<edge source="OpenAI" target="upward">
+  <data key="d7">1.0</data>
+  <data key="d8">OpenAI's mission is to uplift human consciousness.</data>
+  <data key="d9">Upward trajectory with the purpose of AI advancement</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748978</data>
+  <data key="d13"></data>
+</edge>
+<edge source="DeepMind" target="upward">
+  <data key="d7">1.0</data>
+  <data key="d8">DeepMind's mission is to accelerate human understanding.</data>
+  <data key="d9">Upward trajectory with the purpose of AI advancement</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748979</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ChatGPT" target="upward">
+  <data key="d7">1.0</data>
+  <data key="d8">ChatGPT's development has led to an upward trajectory in its usage.</data>
+  <data key="d9">Upward trajectory with the purpose of AI development</data>
+  <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
+  <data key="d12">1773748979</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

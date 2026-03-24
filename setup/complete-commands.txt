@@ -1,0 +1,530 @@
+Below is the **complete, linear command sequence** starting from **cluster creation → platform install → AI stack → observability → vmagent**, using the **exact YAML stack you are using** (including the `promtail.yaml` you pasted).
+
+This is written so someone can **recreate your entire system from scratch without debugging**.
+
+---
+
+# 0. Prerequisites (Install First)
+
+### Install Docker
+
+Download Docker Desktop and verify:
+
+```bash
+docker --version
+```
+
+---
+
+### Install kubectl
+
+Windows:
+
+```powershell
+winget install Kubernetes.kubectl
+```
+
+Verify:
+
+```bash
+kubectl version --client
+```
+
+---
+
+### Install k3d
+
+```powershell
+winget install k3d
+```
+
+Verify:
+
+```bash
+k3d version
+```
+
+---
+
+# TERMINAL 1
+
+# Create Kubernetes Cluster + Platform
+
+---
+
+# 1. Check Existing Clusters
+
+```bash
+k3d cluster list
+```
+
+Delete old cluster if needed:
+
+```bash
+k3d cluster delete kvoice-cluster
+```
+
+---
+
+# 2. Create the Kubernetes Cluster
+
+```bash
+k3d cluster create kvoice-cluster \
+--agents 1 \
+--image rancher/k3s:v1.31.5-k3s1 \
+-p "11434:30080@agent:0" \
+-p "30300:30300@agent:0" \
+-p "30750:30750@agent:0" \
+-p "30100:30100@agent:0" \
+-p "30200:30200@agent:0" \
+-p "30417:30417@agent:0" \
+-v /usr/share/ollama/.ollama/models:/models@all
+```
+
+### Port mapping
+
+| Port  | Service         |
+| ----- | --------------- |
+| 11434 | Ollama          |
+| 30300 | Grafana         |
+| 30750 | VictoriaMetrics |
+| 30100 | Loki            |
+| 30200 | Tempo           |
+| 30417 | Tempo OTLP      |
+
+---
+
+# 3. Merge kubeconfig
+
+```bash
+k3d kubeconfig merge kvoice-cluster --kubeconfig-switch-context
+```
+
+Verify:
+
+```bash
+kubectl config current-context
+```
+
+Expected:
+
+```
+k3d-kvoice-cluster
+```
+
+---
+
+# 4. Verify Cluster
+
+```bash
+kubectl get nodes
+```
+
+Expected:
+
+```
+k3d-kvoice-cluster-server-0
+k3d-kvoice-cluster-agent-0
+```
+
+---
+
+# Install Knative Serving
+
+---
+
+# 5. Install Knative CRDs
+
+```bash
+kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.13.1/serving-crds.yaml
+```
+
+---
+
+# 6. Install Knative Core
+
+```bash
+kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.13.1/serving-core.yaml
+```
+
+Check:
+
+```bash
+kubectl get pods -n knative-serving
+```
+
+---
+
+# Install Kourier
+
+---
+
+# 7. Install Kourier
+
+```bash
+kubectl apply -f https://github.com/knative/net-kourier/releases/download/knative-v1.13.0/kourier.yaml
+```
+
+Verify:
+
+```bash
+kubectl get pods -n kourier-system
+```
+
+---
+
+# 8. Configure Knative to Use Kourier
+
+```bash
+kubectl patch configmap/config-network \
+-n knative-serving \
+--type merge \
+-p '{"data":{"ingress-class":"kourier.ingress.networking.knative.dev"}}'
+```
+
+---
+
+# Install cert-manager
+
+---
+
+# 9. Install cert-manager
+
+```bash
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/latest/download/cert-manager.yaml
+```
+
+Verify:
+
+```bash
+kubectl get pods -n cert-manager
+```
+
+---
+
+# Install KServe
+
+---
+
+# 10. Install KServe
+
+```bash
+kubectl apply -f https://github.com/kserve/kserve/releases/download/v0.12.0/kserve.yaml
+```
+
+Verify:
+
+```bash
+kubectl get pods -n kserve
+```
+
+---
+
+# 11. Fix kube-rbac-proxy image
+
+```bash
+kubectl set image deployment/kserve-controller-manager \
+kube-rbac-proxy=quay.io/brancz/kube-rbac-proxy:v0.13.1 \
+-n kserve
+```
+
+Restart controller:
+
+```bash
+kubectl rollout restart deployment kserve-controller-manager -n kserve
+```
+
+---
+
+# Install kube-state-metrics
+
+---
+
+# 12. Deploy metrics collector
+
+```bash
+kubectl apply -k https://github.com/kubernetes/kube-state-metrics.git//examples/standard
+```
+
+Verify:
+
+```bash
+kubectl get pods -n kube-system | grep kube-state
+```
+
+---
+
+# TERMINAL 2
+
+# Deploy AI + Observability Stack
+
+---
+
+Navigate to project directory:
+
+```bash
+cd ~/RAG/ollama-rag
+```
+
+---
+
+# 13. Deploy Ollama
+
+```bash
+kubectl apply -f ollama.yaml
+```
+
+Verify:
+
+```bash
+kubectl get pods
+```
+
+---
+
+# 14. Deploy VictoriaMetrics
+
+```bash
+kubectl apply -f vmetrics.yaml
+```
+
+Check service:
+
+```bash
+kubectl get svc
+```
+
+Expected:
+
+```
+victoriametrics   NodePort   8428:30750
+```
+
+Open:
+
+```
+http://localhost:30750
+```
+
+---
+
+# 15. Deploy Grafana
+
+```bash
+kubectl apply -f grafana.yaml
+```
+
+Verify:
+
+```bash
+kubectl get svc
+```
+
+Expected:
+
+```
+grafana-service   NodePort   3000:30300
+```
+
+Open:
+
+```
+http://localhost:30300
+```
+
+---
+
+# 16. Deploy Loki
+
+```bash
+kubectl apply -f loki.yaml
+```
+
+Verify:
+
+```bash
+kubectl get pods
+```
+
+Open:
+
+```
+http://localhost:30100
+```
+
+---
+
+# 17. Deploy Tempo
+
+```bash
+kubectl apply -f tempo.yaml
+```
+
+Verify:
+
+```bash
+kubectl get pods
+```
+
+Open:
+
+```
+http://localhost:30200
+```
+
+---
+
+# 18. Deploy Promtail
+
+Use your **existing promtail.yaml**.
+
+```bash
+kubectl apply -f promtail.yaml
+```
+
+Verify:
+
+```bash
+kubectl get pods
+kubectl logs -l app=promtail
+```
+
+---
+
+# TERMINAL 3
+
+# Port Forward kube-state-metrics
+
+Needed for Windows vmagent.
+
+```bash
+kubectl port-forward --address 0.0.0.0 -n kube-system svc/kube-state-metrics 8081:8080
+```
+
+---
+
+# WINDOWS
+
+# Start vmagent
+
+Download:
+
+```
+https://github.com/VictoriaMetrics/VictoriaMetrics/releases
+```
+
+Download:
+
+```
+vmutils-windows-amd64-v1.137.0.zip
+```
+
+Extract.
+
+---
+
+# Create vmagent.yml
+
+```yaml
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+
+  - job_name: voice_rag_pipeline
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+        - 127.0.0.1:8000
+
+  - job_name: kube_state_metrics
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+        - <WSL-IP>:8081
+```
+
+Find WSL IP:
+
+```bash
+ip addr | grep eth0
+```
+
+Example:
+
+```
+172.20.236.51
+```
+
+---
+
+# Start vmagent
+
+In PowerShell:
+
+```powershell
+.\vmagent-windows-amd64-prod.exe "-promscrape.config=vmagent.yml" "-remoteWrite.url=http://127.0.0.1:30750/api/v1/write"
+```
+
+---
+
+# Access Services
+
+| Service         | URL                                              |
+| --------------- | ------------------------------------------------ |
+| Ollama          | [http://localhost:11434](http://localhost:11434) |
+| Grafana         | [http://localhost:30300](http://localhost:30300) |
+| VictoriaMetrics | [http://localhost:30750](http://localhost:30750) |
+| Loki            | [http://localhost:30100](http://localhost:30100) |
+| Tempo           | [http://localhost:30200](http://localhost:30200) |
+
+---
+
+# Verify Everything
+
+```bash
+kubectl get pods -A
+```
+
+Expected namespaces:
+
+| Component          | Namespace       |
+| ------------------ | --------------- |
+| Knative            | knative-serving |
+| Kourier            | kourier-system  |
+| KServe             | kserve          |
+| Cert Manager       | cert-manager    |
+| Ollama             | default         |
+| VictoriaMetrics    | default         |
+| Grafana            | default         |
+| Loki               | default         |
+| Tempo              | default         |
+| Promtail           | default         |
+| kube-state-metrics | kube-system     |
+
+---
+
+# Final Architecture
+
+```
+Host Machine
+     │
+     ▼
+k3d Kubernetes (kvoice-cluster)
+     │
+     ├── Knative Serving
+     ├── Kourier Ingress
+     ├── KServe
+     │
+     ├── Ollama (LLM runtime)
+     │
+     ├── VictoriaMetrics (metrics)
+     ├── Loki (logs)
+     ├── Tempo (traces)
+     │
+     └── Grafana
+```
+
+---
+
+If you want, I can also give you a **single bash script that recreates this entire platform automatically**, which is extremely useful when rebuilding the cluster.

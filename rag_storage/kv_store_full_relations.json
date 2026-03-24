@@ -1,106 +1,110 @@
 {
-  "doc-3221ace08e339ff9e596a45a16c03760": {
+  "doc-7f356c3a6cd4b479793dd2eba4d1cee8": {
     "relation_pairs": [
       [
-        "Smallpdf",
-        "Smallpdf G Suite App"
+        "Event",
+        "data/document.txt"
       ],
       [
-        "Cruz",
-        "control"
-      ],
-      [
-        "Large Files",
-        "Smallpdf"
-      ],
-      [
-        "Convert, Compress, or Modify Files",
-        "Smallpdf"
-      ],
-      [
-        "Smallpdf",
-        "e-Signatures"
-      ],
-      [
-        "Digital Documents",
-        "Smallpdf"
-      ],
-      [
-        "Alex",
-        "Taylor"
-      ],
-      [
-        "Taylor",
-        "The Device"
-      ],
-      [
-        "Smallpdf",
-        "Storage"
-      ],
-      [
-        "Jordan",
-        "The Device"
-      ],
-      [
-        "Files",
-        "Online Portal"
+        "Method",
+        "data/document.txt"
       ]
     ],
-    "count": 11,
-    "create_time": 1772712073,
-    "update_time": 1772712073,
-    "_id": "doc-3221ace08e339ff9e596a45a16c03760"
+    "count": 2,
+    "create_time": 1773745180,
+    "update_time": 1773745180,
+    "_id": "doc-7f356c3a6cd4b479793dd2eba4d1cee8"
   },
-  "doc-9401e581ea2eb0b2f1332c2d727150cb": {
+  "doc-ee21a68f4b6ac58b597b3aa7dda3fc10": {
     "relation_pairs": [
+      [
+        "Alex",
+        "Taylor"
+      ],
+      [
+        "Alex",
+        "Jordan"
+      ],
       [
         "Taylor",
         "The Device"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1773745759,
+    "update_time": 1773745759,
+    "_id": "doc-ee21a68f4b6ac58b597b3aa7dda3fc10"
+  },
+  "doc-87add34af42752ebe68b1dec92af60e0": {
+    "relation_pairs": [
+      [
+        "DeepMind",
+        "upward"
       ],
       [
-        "Smallpdf",
-        "Smallpdf G Suite App"
+        "Netflix",
+        "downward"
       ],
       [
-        "Digital Documents",
-        "Smallpdf"
+        "Alphabet",
+        "downward"
       ],
       [
-        "Convert, Compress, or Modify Files",
-        "Smallpdf"
+        "ChatGPT",
+        "upward"
       ],
       [
-        "Cruz",
-        "control"
+        "Google",
+        "downward"
       ],
       [
-        "Large Files",
-        "Smallpdf"
+        "Baidu",
+        "downward"
       ],
       [
-        "Files",
-        "Online Portal"
+        "100m Sprint Record",
+        "Noah Carter"
       ],
       [
-        "Smallpdf",
-        "e-Signatures"
+        "The Sandbox",
+        "upward"
+      ],
+      [
+        "Apple",
+        "downward"
+      ],
+      [
+        "Amazon",
+        "downward"
+      ],
+      [
+        "Tech Giants",
+        "downward"
+      ],
+      [
+        "Microsoft",
+        "downward"
       ],
       [
         "Alex",
         "Taylor"
       ],
       [
-        "Smallpdf",
-        "Storage"
+        "Alex",
+        "Jordan"
       ],
       [
-        "Jordan",
+        "Taylor",
         "The Device"
+      ],
+      [
+        "OpenAI",
+        "upward"
       ]
     ],
-    "count": 11,
-    "create_time": 1773033561,
-    "update_time": 1773033561,
-    "_id": "doc-9401e581ea2eb0b2f1332c2d727150cb"
+    "count": 16,
+    "create_time": 1773748980,
+    "update_time": 1773748980,
+    "_id": "doc-87add34af42752ebe68b1dec92af60e0"
   }
 }
