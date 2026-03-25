@@ -88,19 +88,21 @@
       "processing_end_time": 1773748980
     }
   },
-  "doc-a4fca718c5bd8c7050bc8123db361080": {
-    "status": "failed",
-    "error_msg": "C[1/6]: chunk-646c6531c53c11906c42b78fa5096017: LLM func: Worker execution timeout after 360s",
-    "content_summary": "customer_id,customer_name,email,city,signup_date\r\n1,\"Amit Sharma\",\"amit.sharma@email.com\",\"Hyderabad\",2023-01-10 00:00:00.0000000\r\n2,\"Neha Verma\",\"neha.verma@email.com\",\"Mumbai\",2023-01-15 00:00:00.0000000\r\n3,\"Rahul Reddy\",\"rahul.reddy@email.com\",\"Ba...",
-    "content_length": 444,
-    "created_at": "2026-03-24T09:06:36.285884+00:00",
-    "updated_at": "2026-03-24T09:12:46.368422+00:00",
-    "file_path": "dbo.customer_info.txt",
-    "track_id": "upload_20260324_143636_f7bdee08",
+  "doc-e5d014c1c2f94bfd6653a81e4d7fc4f7": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-e5d014c1c2f94bfd6653a81e4d7fc4f7"
+    ],
+    "content_summary": "Dummy PDF file",
+    "content_length": 14,
+    "created_at": "2026-03-25T11:46:17.650148+00:00",
+    "updated_at": "2026-03-25T11:56:08.376160+00:00",
+    "file_path": "dummy.pdf",
+    "track_id": "upload_20260325_171616_e9a2fa94",
     "metadata": {
-      "processing_start_time": 1774343196,
-      "processing_end_time": 1774343566
-    },
-    "chunks_list": []
+      "processing_start_time": 1774439177,
+      "processing_end_time": 1774439768
+    }
   }
 }

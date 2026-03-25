@@ -20,11 +20,11 @@
     "update_time": 1773746350,
     "_id": "doc-87add34af42752ebe68b1dec92af60e0"
   },
-  "doc-a4fca718c5bd8c7050bc8123db361080": {
-    "content": "customer_id,customer_name,email,city,signup_date\r\n1,\"Amit Sharma\",\"amit.sharma@email.com\",\"Hyderabad\",2023-01-10 00:00:00.0000000\r\n2,\"Neha Verma\",\"neha.verma@email.com\",\"Mumbai\",2023-01-15 00:00:00.0000000\r\n3,\"Rahul Reddy\",\"rahul.reddy@email.com\",\"Bangalore\",2023-02-05 00:00:00.0000000\r\n4,\"Priya Nair\",\"priya.nair@email.com\",\"Chennai\",2023-02-12 00:00:00.0000000\r\n5,\"Arjun Patel\",\"arjun.patel@email.com\",\"Ahmedabad\",2023-02-20 00:00:00.0000000",
-    "file_path": "dbo.customer_info.txt",
-    "create_time": 1774343196,
-    "update_time": 1774343196,
-    "_id": "doc-a4fca718c5bd8c7050bc8123db361080"
+  "doc-e5d014c1c2f94bfd6653a81e4d7fc4f7": {
+    "content": "Dummy PDF file",
+    "file_path": "dummy.pdf",
+    "create_time": 1774439177,
+    "update_time": 1774439177,
+    "_id": "doc-e5d014c1c2f94bfd6653a81e4d7fc4f7"
   }
 }

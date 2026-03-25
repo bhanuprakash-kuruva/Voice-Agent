@@ -3674,5 +3674,19 @@
     "create_time": 1774332335,
     "update_time": 1774332335,
     "_id": "chunk-ec885f35207ba30f0648b0b3f5d69e5d"
+  },
+  "chunk-e5d014c1c2f94bfd6653a81e4d7fc4f7": {
+    "tokens": 3,
+    "content": "Dummy PDF file",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e5d014c1c2f94bfd6653a81e4d7fc4f7",
+    "file_path": "dummy.pdf",
+    "llm_cache_list": [
+      "default:extract:4db9956703e63a9f67d5b51fb7683e0b",
+      "default:extract:b8769e05fdb1a2a4eaefd7f14485db0e"
+    ],
+    "create_time": 1774439177,
+    "update_time": 1774439767,
+    "_id": "chunk-e5d014c1c2f94bfd6653a81e4d7fc4f7"
   }
 }

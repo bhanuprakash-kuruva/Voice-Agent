@@ -71,5 +71,14 @@
     "create_time": 1773748980,
     "update_time": 1773748980,
     "_id": "doc-87add34af42752ebe68b1dec92af60e0"
+  },
+  "doc-e5d014c1c2f94bfd6653a81e4d7fc4f7": {
+    "entity_names": [
+      "Dummy PDF file"
+    ],
+    "count": 1,
+    "create_time": 1774439768,
+    "update_time": 1774439768,
+    "_id": "doc-e5d014c1c2f94bfd6653a81e4d7fc4f7"
   }
 }

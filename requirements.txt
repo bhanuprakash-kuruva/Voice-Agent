@@ -1,5 +1,5 @@
 raganything
-lightrag-hku
+lightrag-hku[api]
 openai
 numpy
 tqdm
@@ -11,8 +11,6 @@ scipy
 faster-whisper
 pyttsx3
 prometheus-client
-
-
 opentelemetry-api
 opentelemetry-sdk
 opentelemetry-exporter-otlp

@@ -400,6 +400,15 @@
   <data key="d5">1773748976</data>
   <data key="d6"></data>
 </node>
+<node id="Dummy PDF file">
+  <data key="d0">Dummy PDF file</data>
+  <data key="d3">content</data>
+  <data key="d2">A dummy PDF file contains sample data and does not represent real information.</data>
+  <data key="d1">chunk-e5d014c1c2f94bfd6653a81e4d7fc4f7</data>
+  <data key="d4">dummy.pdf</data>
+  <data key="d5">1774439767</data>
+  <data key="d6"></data>
+</node>
 <edge source="Method" target="data/document.txt">
   <data key="d7">1.0</data>
   <data key="d8">has, several, has-been-developed</data>

@@ -52,3 +52,10 @@ outputs/
 *1.py
 
 *.yaml
+
+
+vector-0.54.0-x86_64-pc-windows-msvc/
+
+vmutils-windows-amd64-v1.137.0/
+
+vector-data/

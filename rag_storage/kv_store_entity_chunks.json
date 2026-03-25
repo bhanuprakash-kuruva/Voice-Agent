@@ -409,5 +409,14 @@
     "create_time": 1773748976,
     "update_time": 1773748976,
     "_id": "upward"
+  },
+  "Dummy PDF file": {
+    "chunk_ids": [
+      "chunk-e5d014c1c2f94bfd6653a81e4d7fc4f7"
+    ],
+    "count": 1,
+    "create_time": 1774439767,
+    "update_time": 1774439767,
+    "_id": "Dummy PDF file"
   }
 }
