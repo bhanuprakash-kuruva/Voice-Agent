@@ -1512,5 +1512,131 @@
     "create_time": 1774439767,
     "update_time": 1774439767,
     "_id": "default:extract:b8769e05fdb1a2a4eaefd7f14485db0e"
+  },
+  "hybrid:keywords:2a1e3e16045c0f935a8c18db590a06b0": {
+    "return": "{\"high_level_keywords\": [\"Relationship\", \"Alex\", \"Jordan\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "the relationship between Alex and Jordan.",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1774441859,
+    "update_time": 1774441859,
+    "_id": "hybrid:keywords:2a1e3e16045c0f935a8c18db590a06b0"
+  },
+  "hybrid:query:bc3315726bbf71172e7ab80bbb4edda5": {
+    "return": "Alex and Jordan share a commitment to discovery, which stands in stark contrast to Cruz's vision of control and order. This dynamic suggests that both characters are likely to be forward-thinking and innovative, possibly working together on projects or ideas that challenge the status qucur to bring about change or progress.\n\n\n### References\n\n- [1] T-GENAIHP-I-m1-l7-en-file-8.en.pdf\n\n- [2] document.pdf",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "the relationship between Alex and Jordan.",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Relationship, Alex, Jordan",
+      "ll_keywords": "",
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1774442082,
+    "update_time": 1774442082,
+    "_id": "hybrid:query:bc3315726bbf71172e7ab80bbb4edda5"
+  },
+  "hybrid:keywords:930f4bf3dbe3ada6404b91a3c643a097": {
+    "return": "{\"high_level_keywords\": [\"Alex\", \"Context\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "context of Alex.",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1774455938,
+    "update_time": 1774455938,
+    "_id": "hybrid:keywords:930f4bf3dbe3ada6404b91a3c643a097"
+  },
+  "hybrid:query:a9ec9040e9153e721d485093ea668726": {
+    "return": "Alex is a character who experiences frustration and is observant of the dynamics among other characters. This frustration could stem from various sources within the narrative, such as personal ambitions, interpersonal conflicts, or external pressures. As an observant character, Alex likely pays close attention to the actions and reactions of others, which could provide insights into the underlying causes of the frustration.\n\n\nIn the context of the provided knowledge graph, we can infer that Alex's frustration might be related to the broader themes of discovery and control within the story. The fact that Alex shares a commitment to discovery with Jordan, who is also frustrated by the downturn in the tech industry, suggests that Alex's frustration could be tied to the challenges faced by the tech giants, including Netflix and Google, which have been deeply impacted by the market downturn.\n\n\nMoreover, Alex's frustration might be amplified by the contrast between the downturn in the tech industry and the upward trajectory in donations and services, as seen in the Sandbox's work. This dichotomy could highlight the disparities in the characters' experiences",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "context of Alex.",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Alex, Context",
+      "ll_keywords": "",
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1774456316,
+    "update_time": 1774456316,
+    "_id": "hybrid:query:a9ec9040e9153e721d485093ea668726"
+  },
+  "hybrid:keywords:ac09af92c3e01981c671bcbcc198f61c": {
+    "return": "{\"high_level_keywords\": [\"Jordan\", \"Geopolitical context\", \"Middle East\"], \"low_level_keywords\": [\"King Abdullah II\", \"Palestinian-Israeli conflict\", \"Wadi Rum\"]}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "context of Jordan",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1774456701,
+    "update_time": 1774456701,
+    "_id": "hybrid:keywords:ac09af92c3e01981c671bcbcc198f61c"
+  },
+  "hybrid:query:2b1faee3b1c3c97ac00a7e3a8d9a8ef9": {
+    "return": "\nJordan is a character who shares a commitment to discovery with Alex and opposes Cruz's vision. This shared commitment is central to Jordan's interactions with Taylor, particularly regarding a device that Jordan believes holds significant potential for discovery. Jordan's stance is in direct contrast to Cruz's authoritarian certainty and reverence for The Device, which Taylor also holds. This dynamic creates a tension between the characters, as Jordan and Taylor seek to explore and understand The Device's capabilities, while Cruz and Taylor aim to control and possibly exploit it.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "context of Jordan",
+    "queryparam": {
+      "mode": "hybrid",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 5,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Jordan, Geopolitical context, Middle East",
+      "ll_keywords": "King Abdullah II, Palestinian-Israeli conflict, Wadi Rum",
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1774457001,
+    "update_time": 1774457001,
+    "_id": "hybrid:query:2b1faee3b1c3c97ac00a7e3a8d9a8ef9"
   }
 }
