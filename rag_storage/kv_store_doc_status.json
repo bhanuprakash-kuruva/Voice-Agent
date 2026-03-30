@@ -104,5 +104,47 @@
       "processing_start_time": 1774439177,
       "processing_end_time": 1774439768
     }
+  },
+  "doc-53acea6103789f1ee791ca97a33d6312": {
+    "status": "processed",
+    "chunks_count": 6,
+    "chunks_list": [
+      "chunk-f4bb2944a9234fae77eb43fca9d768e7",
+      "chunk-9615e6b87fc00e3a7f3e85036e4602d1",
+      "chunk-63c891c73b0a12c6c0e1404794778ece",
+      "chunk-78a235bdc603de8c5e74e9dc889e5fa0",
+      "chunk-59fbaa522541a5948a8b31e6b25ccf3f",
+      "chunk-849afa7e6989afd2cff48dd3a229894a"
+    ],
+    "content_summary": "In a quiet village by a river, three unlikely friends met every evening under an old banyan tree.\r\n\r\nRavi was curious and always asking questions. Meera loved drawing the world around her. And Kiran—he never spoke much, but he noticed everything.\r\n\r\n...",
+    "content_length": 826,
+    "created_at": "2026-03-29T09:50:43.484757+00:00",
+    "updated_at": "2026-03-29T09:51:57.975166+00:00",
+    "file_path": "story.txt",
+    "track_id": "upload_20260329_152043_ee447244",
+    "metadata": {
+      "processing_start_time": 1774777843,
+      "processing_end_time": 1774777917
+    }
+  },
+  "doc-528e0d25118e8966adc339b6ae52ef1d": {
+    "status": "processed",
+    "chunks_count": 4,
+    "chunks_list": [
+      "chunk-80e49f877ff24526c1fd05273d46c9a1",
+      "chunk-f9827ab63cc2700817ef880c46c51a85",
+      "chunk-ad619cf1568200e4af5ed3bb6b714ccc",
+      "chunk-db5765ef440e933ad548f7b9b1b894d1"
+    ],
+    "content_summary": "Five friends—Aarav, Meera, Kabir, Zoya, and Dev—built a small AI to solve local problems. Aarav coded the logic, Meera designed the interface, Kabir handled data, Zoya tested every feature, and Dev connected it to real users. At first, their AI made ...",
+    "content_length": 513,
+    "created_at": "2026-03-29T10:12:01.234955+00:00",
+    "updated_at": "2026-03-29T13:52:20.282453+00:00",
+    "file_path": "Friends.txt",
+    "track_id": "upload_20260329_154201_bbb77834",
+    "metadata": {
+      "processing_start_time": 1774779121,
+      "processing_end_time": 1774792340
+    }
   }
 }

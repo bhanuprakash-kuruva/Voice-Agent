@@ -1,6 +1,7 @@
 import asyncio
 import time
 import os
+import sys
 import numpy as np
 import psutil
 import hashlib
@@ -13,6 +14,83 @@ from datetime import datetime
 from openai import OpenAI
 from raganything import RAGAnything
 from raganything.config import RAGAnythingConfig
+
+# ============================================
+# FORCE MONKEY PATCH - CORRECTED VERSION
+# ============================================
+
+async def safe_ollama_embed(
+    texts: list[str],
+    embed_model: str = "nomic-embed-text",
+    host: str = "http://localhost:11434",
+    timeout: float = 600.0,
+    **kwargs
+) -> list[list[float]]:
+    """Safe version with correct truncation size for nomic-embed-text"""
+    
+    # ✅ CORRECTED: 10000 chars = ~2500 tokens (safe for 4096 context)
+    MAX_CHARS = 10000
+    MAX_BATCH_SIZE = 10
+    
+    # Truncate each text if needed
+    truncated_texts = []
+    for i, text in enumerate(texts):
+        if len(text) > MAX_CHARS:
+            keep_start = int(MAX_CHARS * 0.7)
+            keep_end = int(MAX_CHARS * 0.3)
+            original_len = len(text)
+            truncated = (
+                text[:keep_start] + 
+                f"\n\n...[TRUNCATED: {original_len - MAX_CHARS} characters]...\n\n" +
+                text[-keep_end:]
+            )
+            truncated_texts.append(truncated)
+            print(f"⚠️ Truncated text {i}: {original_len} -> {len(truncated)} chars")
+        else:
+            truncated_texts.append(text)
+    
+    import httpx
+    from lightrag.llm.ollama import remove_indent
+    
+    all_embeddings = []
+    
+    async with httpx.AsyncClient(timeout=timeout) as client:
+        for i in range(0, len(truncated_texts), MAX_BATCH_SIZE):
+            batch = truncated_texts[i:i + MAX_BATCH_SIZE]
+            batch = [remove_indent(text) for text in batch]
+            
+            # ✅ ADDED: options with explicit context window
+            payload = {
+                "model": embed_model,
+                "input": batch,
+                "options": {
+                    "num_ctx": 4096
+                }
+            }
+            
+            response = await client.post(f"{host}/v1/embeddings", json=payload)
+            response.raise_for_status()
+            data = response.json()
+            
+            batch_embeddings = [item["embedding"] for item in data["data"]]
+            all_embeddings.extend(batch_embeddings)
+            
+            if i + MAX_BATCH_SIZE < len(truncated_texts):
+                await asyncio.sleep(0.05)
+    
+    return all_embeddings
+
+# Apply the patch
+import lightrag.llm.ollama as ollama_module
+ollama_module.ollama_embed = safe_ollama_embed
+
+# Also update sys.modules
+if 'lightrag.llm.ollama' in sys.modules:
+    sys.modules['lightrag.llm.ollama'].ollama_embed = safe_ollama_embed
+
+print("✓ MONKEY PATCH APPLIED with CORRECT truncation (10000 chars, num_ctx=4096)")
+
+# Now import LightRAG
 from lightrag import LightRAG
 from lightrag.utils import EmbeddingFunc
 
@@ -68,8 +146,14 @@ OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 WORKING_DIR = os.getenv("WORKING_DIR", "./rag_storage")
 CACHE_ENABLED = os.getenv("LLM_CACHE_ENABLED", "true").lower() == "true"
 CACHE_TTL = int(os.getenv("LLM_CACHE_TTL", "3600"))
-LLM_TIMEOUT = int(os.getenv("LLM_TIMEOUT", "120"))  # 2 minute timeout default
-RAG_TIMEOUT = int(os.getenv("RAG_TIMEOUT", "180"))  # 3 minute timeout default
+LLM_TIMEOUT = int(os.getenv("LLM_TIMEOUT", "120"))
+RAG_TIMEOUT = int(os.getenv("RAG_TIMEOUT", "180"))
+
+# Embedding safety limits
+MAX_EMBEDDING_CHARS = int(os.getenv("MAX_EMBEDDING_CHARS", "10000"))  # Updated to 10000
+MAX_BATCH_SIZE = int(os.getenv("MAX_EMBEDDING_BATCH_SIZE", "10"))
+ENTITY_MERGE_MAX_CHUNKS = int(os.getenv("ENTITY_MERGE_MAX_CHUNKS", "3"))
+MAX_ENTITY_TOKENS = int(os.getenv("MAX_ENTITY_TOKENS", "4000"))
 
 # --------------------------------
 # SYSTEM METRICS HELPER
@@ -166,7 +250,7 @@ _llm_cache = LLMCache(ttl_seconds=CACHE_TTL)
 class OllamaClient:
     """Enhanced Ollama client with retry and error handling"""
     
-    def __init__(self, base_url: str = OLLAMA_BASE_URL, timeout: float = 1200.0):
+    def __init__(self, base_url: str = OLLAMA_BASE_URL, timeout: float = 12000.0):
         self.base_url = base_url
         self.timeout = timeout
         self._client = None
@@ -210,7 +294,10 @@ class OllamaClient:
         
         payload = {
             "model": model,
-            "input": texts
+            "input": texts,
+            "options": {
+                "num_ctx": 4096
+            }
         }
         
         response = await client.post(
@@ -304,7 +391,6 @@ async def llm_func(
         error = None
         
         try:
-            # ADD TIMEOUT PROTECTION
             with tracer.start_as_current_span("ollama_call", kind=SpanKind.CLIENT) as client_span:
                 client_span.set_attribute("peer.service", "ollama")
                 client_span.set_attribute("http.method", "POST")
@@ -360,7 +446,6 @@ async def llm_func(
             
             return f"LLM request failed: {str(e)}"
         
-        # Calculate metrics
         end_metrics = capture_system_metrics()
         metrics_delta = calculate_metrics_delta(start_metrics, end_metrics)
         duration = time.time() - start_time
@@ -412,77 +497,33 @@ async def llm_func(
 # --------------------------------
 
 async def embed_texts(texts: List[str]) -> np.ndarray:
-    """Enhanced embedding function with batching and metrics"""
+    """Embedding function with truncation and batching"""
     if not texts:
         return np.array([], dtype=np.float32)
     
     if isinstance(texts, str):
         texts = [texts]
     
-    batch_size = len(texts)
-    correlation_id = get_correlation_id()
+    # Truncate if needed (using corrected 10000 char limit)
+    truncated_texts = []
+    for text in texts:
+        if len(text) > MAX_EMBEDDING_CHARS:
+            keep_start = int(MAX_EMBEDDING_CHARS * 0.7)
+            keep_end = int(MAX_EMBEDDING_CHARS * 0.3)
+            truncated = text[:keep_start] + f"\n...[TRUNCATED]...\n" + text[-keep_end:]
+            truncated_texts.append(truncated)
+            logger.warning(f"Truncated text from {len(text)} to {len(truncated)} chars")
+        else:
+            truncated_texts.append(text)
     
-    with tracer.start_as_current_span("embedding_generation") as span:
-        
-        span.set_attribute("component", "embedding")
-        span.set_attribute("embedding.model", EMBEDDING_MODEL)
-        span.set_attribute("embedding.batch_size", batch_size)
-        span.set_attribute("correlation_id", correlation_id)
-        
-        start_metrics = capture_system_metrics()
-        start_time = time.time()
-        
-        embedding_requests_total.labels(
-            model=EMBEDDING_MODEL,
-            batch_size_range="small" if batch_size <= 10 else "medium" if batch_size <= 50 else "large"
-        ).inc()
-        
-        embedding_batch_size.observe(batch_size)
-        
-        try:
-            embeddings = await _ollama_client.embeddings(texts, EMBEDDING_MODEL)
-            
-            duration = time.time() - start_time
-            end_metrics = capture_system_metrics()
-            metrics_delta = calculate_metrics_delta(start_metrics, end_metrics)
-            
-            span.set_attribute("cpu_time_used", metrics_delta["cpu_used"])
-            span.set_attribute("memory_used_mb", metrics_delta["memory_used"])
-            span.set_attribute("embedding_duration_sec", duration)
-            span.set_attribute("embedding_count", len(embeddings))
-            span.set_attribute("embedding_dim", len(embeddings[0]) if embeddings else 0)
-            
-            stage_cpu_usage.labels(stage="embedding").observe(metrics_delta["cpu_used"])
-            stage_memory_usage.labels(stage="embedding").observe(metrics_delta["memory_used"])
-            embedding_latency.observe(duration)
-            
-            logger.info({
-                "event": "embeddings_generated",
-                "batch_size": batch_size,
-                "duration": duration,
-                "embedding_dim": len(embeddings[0]) if embeddings else 0,
-                "cpu_used": metrics_delta["cpu_used"],
-                "memory_used_mb": metrics_delta["memory_used"],
-                "correlation_id": correlation_id
-            })
-            
-            return np.array(embeddings, dtype=np.float32)
-            
-        except Exception as e:
-            span.set_attribute("error", True)
-            span.set_attribute("error.type", type(e).__name__)
-            
-            rag_errors_total.labels(stage="embedding", error_type=type(e).__name__).inc()
-            
-            logger.error({
-                "event": "embedding_failed",
-                "batch_size": batch_size,
-                "error": str(e),
-                "error_type": type(e).__name__,
-                "correlation_id": correlation_id
-            })
-            
-            raise
+    # Process in batches
+    all_embeddings = []
+    for i in range(0, len(truncated_texts), MAX_BATCH_SIZE):
+        batch = truncated_texts[i:i + MAX_BATCH_SIZE]
+        batch_embeddings = await _ollama_client.embeddings(batch, EMBEDDING_MODEL)
+        all_embeddings.extend(batch_embeddings)
+    
+    return np.array(all_embeddings, dtype=np.float32)
 
 
 # --------------------------------
@@ -496,9 +537,7 @@ async def query_rag(
     top_k: int = 5,
     similarity_threshold: float = 0.5
 ) -> Tuple[str, Dict[str, Any]]:
-    """
-    Execute RAG query with timeout protection
-    """
+    """Execute RAG query with timeout protection"""
     correlation_id = get_correlation_id()
     log_stage_boundary("rag_retrieval", "enter", correlation_id)
     
@@ -513,7 +552,6 @@ async def query_rag(
         start_time = time.time()
         
         try:
-            # ADD TIMEOUT PROTECTION
             result = await asyncio.wait_for(
                 rag.aquery(query, mode=mode, top_k=top_k),
                 timeout=RAG_TIMEOUT
@@ -605,7 +643,7 @@ async def query_rag(
 # --------------------------------
 
 async def build_rag() -> RAGAnything:
-    """Build and initialize RAG pipeline with enhanced configuration"""
+    """Build and initialize RAG pipeline"""
     with tracer.start_as_current_span("build_rag") as span:
         
         span.set_attribute("working_dir", WORKING_DIR)
@@ -631,7 +669,9 @@ async def build_rag() -> RAGAnything:
         lightrag_instance = LightRAG(
             working_dir=WORKING_DIR,
             llm_model_func=llm_func,
-            embedding_func=embedding_func
+            embedding_func=embedding_func,
+            entity_merge_max_chunks=ENTITY_MERGE_MAX_CHUNKS,
+            max_entity_tokens=MAX_ENTITY_TOKENS
         )
         
         await lightrag_instance.initialize_storages()

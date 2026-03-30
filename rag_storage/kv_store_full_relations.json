@@ -106,5 +106,137 @@
     "create_time": 1773748980,
     "update_time": 1773748980,
     "_id": "doc-87add34af42752ebe68b1dec92af60e0"
+  },
+  "doc-53acea6103789f1ee791ca97a33d6312": {
+    "relation_pairs": [
+      [
+        "Noah Carter",
+        "competes in"
+      ],
+      [
+        "Noah Carter",
+        "World Athletics Championship"
+      ],
+      [
+        "Hosts",
+        "Tokyo"
+      ],
+      [
+        "100m Sprint Record",
+        "Tokyo"
+      ],
+      [
+        "Noah Carter",
+        "Tokyo"
+      ],
+      [
+        "Carbon-Fiber Spikes",
+        "Noah Carter"
+      ],
+      [
+        "100m Sprint Record",
+        "Noah Carter"
+      ],
+      [
+        "Bronze Medal",
+        "Noah Carter"
+      ],
+      [
+        "Kiran",
+        "River"
+      ],
+      [
+        "Ravi",
+        "River"
+      ],
+      [
+        "Kiran",
+        "Meera"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1774777917,
+    "update_time": 1774777917,
+    "_id": "doc-53acea6103789f1ee791ca97a33d6312"
+  },
+  "doc-528e0d25118e8966adc339b6ae52ef1d": {
+    "relation_pairs": [
+      [
+        "Aarav",
+        "Small AI"
+      ],
+      [
+        "Doctors",
+        "The AI"
+      ],
+      [
+        "Kabir",
+        "Small AI"
+      ],
+      [
+        "The AI",
+        "Their Team"
+      ],
+      [
+        "Kabir",
+        "Team Members-"
+      ],
+      [
+        "Dev",
+        "Small AI"
+      ],
+      [
+        "Noah Carter",
+        "Participated As"
+      ],
+      [
+        "Farmers",
+        "Their AI"
+      ],
+      [
+        "Students",
+        "The AI"
+      ],
+      [
+        "Team Members-",
+        "Zoya"
+      ],
+      [
+        "Dev",
+        "Team Members-"
+      ],
+      [
+        "Meera",
+        "Small AI"
+      ],
+      [
+        "Meera",
+        "Team Members-"
+      ],
+      [
+        "Collaboration",
+        "Their Team"
+      ],
+      [
+        "Noah Carter",
+        "Performed For"
+      ],
+      [
+        "Anonymous Team",
+        "Powerful Idea"
+      ],
+      [
+        "Improvement Process",
+        "Meera, Kabir, Zoya, and Dev"
+      ],
+      [
+        "Small AI",
+        "Zoya"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1774792340,
+    "update_time": 1774792340,
+    "_id": "doc-528e0d25118e8966adc339b6ae52ef1d"
   }
 }

@@ -124,46 +124,102 @@
 <node id="World Athletics Championship">
   <data key="d0">World Athletics Championship</data>
   <data key="d3">event</data>
-  <data key="d2">The World Athletics Championship is a global sports competition featuring top athletes in track and field.&lt;SEP&gt;The World Athletics Championship is being hosted in Tokyo.</data>
-  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30</data>
-  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
-  <data key="d5">1773748953</data>
+  <data key="d2">The World Athletics Championship is a global sports competition featuring top athletes in track and field.&lt;SEP&gt;The World Athletics Championship is being hosted in Tokyo.&lt;SEP&gt;The World Athletics Championship is a global sports competition featuring top athletes in track and field.&lt;SEP&gt;The World Athletics Championship is a global sports competition featuring top athletes in track and field.&lt;SEP&gt;The World Athletics Championship is a global sports competition involving top athletes in track and field.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30&lt;SEP&gt;chunk-849afa7e6989afd2cff48dd3a229894a&lt;SEP&gt;chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf&lt;SEP&gt;story.txt&lt;SEP&gt;Friends.txt</data>
+  <data key="d5">1774791443</data>
   <data key="d6"></data>
 </node>
 <node id="Noah Carter">
   <data key="d0">Noah Carter</data>
   <data key="d3">person</data>
-  <data key="d2">Noah Carter is a sprinter who set a new record in the 100m sprint at the World Athletics Championship.&lt;SEP&gt;Noah Carter set a new 100m sprint record at the World Athletics Championship.</data>
-  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30</data>
-  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
-  <data key="d5">1773748953</data>
+  <data key="d2">--- Executive Summary ---
+
+The global customer feedback from our North American, European, and Asian regions indicates that while athletes' performances are consistently praised, there are shared customer concerns regarding delivery times, particularly late deliveries and damage risk, tracking issues, local holiday schedules, and complex customs procedures. To improve customer experience and adapt to the unique conditions of each region, the following focused strategies are prioritized.
+
+
+**North America**
+
+Customers frequently reported late deliveries and damage, which indicates an immediate need to strengthen delivery and packaging services.
+
+
+**Europe**
+
+Even though on-time deliveries are common here, transparent tracking information and extended shipping timeframes to accommodate holiday schedules are needed.
+
+
+**Asia**
+
+Quick delivery speeds are notable, but investments in enhanced packaging and education about local holidries and customs are advised.
+
+
+**Strategy for Immediate Action**
+
+
+**North America**
+
+1. Implement robust measures to ensure timely deliveries and package safety as soon as feedback on late deliveries and damaged goods is identified.
+
+2. Commit to enhancement of the shipment tracking system for better communication to ensure customer confidence in delivery status.
+
+
+**Europe**
+
+1. Expand and promote our customer service to provide thorough tracking information, ensuring a transparent real-time update system.
+
+2. Adjust shipping policies and clearly communicate these changes to cover a broader range of delivery times, considering European holidays and regional preferences.
+
+
+**Asia**
+
+1. Optimize packaging designs to ensure products arrive unharmed, with considerations for cost-effectiveness without compromising quality.
+
+2. Improve customer guidance regarding customs procedures with educational materials and prior notification systems, with a focus on simplifying and clarifying the process to reduce stress and enhance unboxing experiences.
+
+
+These actionable steps are vital in addressing our customers' concerns and fostering regional loyalty and satisfaction to the e-commerce platform's delivery services and support systems.
+
+---</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30&lt;SEP&gt;chunk-9615e6b87fc00e3a7f3e85036e4602d1&lt;SEP&gt;chunk-849afa7e6989afd2cff48dd3a229894a&lt;SEP&gt;chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf&lt;SEP&gt;story.txt&lt;SEP&gt;Friends.txt</data>
+  <data key="d5">1774792299</data>
   <data key="d6"></data>
 </node>
 <node id="100m Sprint Record">
   <data key="d0">100m Sprint Record</data>
   <data key="d3">category</data>
-  <data key="d2">The 100m sprint record is a benchmark in athletics, recently broken by Noah Carter.</data>
-  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6</data>
-  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
-  <data key="d5">1773748954</data>
+  <data key="d2">The 100m sprint record is a benchmark in athletics, recently broken by Noah Carter.&lt;SEP&gt;Setting records is a testament to an athlete's skill and determination in sports.`&lt;SEP&gt;The 100m sprint record in athletics, which Noah Carter set.&lt;SEP&gt;`</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-9615e6b87fc00e3a7f3e85036e4602d1&lt;SEP&gt;chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf&lt;SEP&gt;story.txt</data>
+  <data key="d5">1774777867</data>
   <data key="d6"></data>
 </node>
 <node id="Carbon-Fiber Spikes">
   <data key="d0">Carbon-Fiber Spikes</data>
   <data key="d3">equipment</data>
-  <data key="d2">Carbon-fiber spikes are advanced sprinting shoes that provide enhanced speed and traction.&lt;SEP&gt;Noah Carter used carbon-fiber spikes to enhance performance during the race.&lt;SEP&gt;advanced sprinting shoes that provide enhanced speed and traction.</data>
-  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30</data>
-  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
-  <data key="d5">1773748954</data>
+  <data key="d2">Carbon-Fiber Spikes are advanced sprinting shoes, commonly acknowledged in elite athletics for their ability to provide enhanced speed and traction. These specialized high-performance footwear options, such as those used by sprinters including Noah Carter, are designed to facilitate rapid acceleration and maintain significant traction on runways. The materials used often include carbon fiber, a lightweight yet durable substance that boosts athletes' performance capabilities significantly.
+
+Athletes such as Noah Carter have embraced the use of carbon-fiber spikes in competitions, specifically to enhance his sprinting performance. Recognizing the efficiency of these shoes in sprinting events, Specialized footwear like carbon-fiber spikes are frequently integrated into the training gear of sprint athletes to offer them competitive advantages during races.
+
+In track and field competitions, particularly in the 100m sprint event, cutting-edge shoes crafted from materials like carbon fiber are employed to grant sprinters superior speed and traction throughout their dash. High-performance spikes that allow for swift acceleration and steady traction have become an essential tool in the arsenal of sprinters vying for excellence in their field.
+
+The utilization of carbon-fiber spikes in professional sprinting is a testament to the ever-evolving search for edge in human athletic capability. These spikes represent a merger of sports science, engineering, and the unyielding drive to achieve the apex of performance on the sprinting track. As with any piece of equipment that significantly contributes to an athlete's success, the benefits and ethical considerations of enhanced performance-enhancing gear such as carbon-fiber spikes can become areas of contention within the sports community.
+
+Through continuous refinement and technological advancements, carbon-fiber spikes remain integral to the strategic preparations of sprint footwear. Athletes such as Noah Carter and his peers depend on these tools to maintain their positions at the forefront of the sport, striving for split-second advantages in a world of razor-thin margins. The role of such footwear in elevating sprinting achievements is a reflection of human ingenuity's impact on athletic prowess.
+
+---End of Output---</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-02a5bac2a59a05a8ec09c17fb7476a30&lt;SEP&gt;chunk-9615e6b87fc00e3a7f3e85036e4602d1&lt;SEP&gt;chunk-849afa7e6989afd2cff48dd3a229894a&lt;SEP&gt;chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf&lt;SEP&gt;story.txt&lt;SEP&gt;Friends.txt</data>
+  <data key="d5">1774791641</data>
   <data key="d6"></data>
 </node>
 <node id="World Athletics Federation">
   <data key="d0">World Athletics Federation</data>
   <data key="d3">organization</data>
-  <data key="d2">The World Athletics Federation is the governing body overseeing the World Athletics Championship and record validations.</data>
-  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16</data>
-  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
-  <data key="d5">1773748955</data>
+  <data key="d2">The World Athletics Federation is the governing body overseeing the World Athletics Championship and record validations.&lt;SEP&gt;The World Athletics Federation is the governing body of international athletics and oversees the World Athletics Championships.&lt;SEP&gt;The governing body regulating athletic standards at the World Athletics Championships.</data>
+  <data key="d1">chunk-a7885c6a98e7f6899dc5d53b6f38ec16&lt;SEP&gt;chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf&lt;SEP&gt;Friends.txt</data>
+  <data key="d5">1774791543</data>
   <data key="d6"></data>
 </node>
 <node id="GenerativeAI">
@@ -214,10 +270,22 @@
 <node id="Tokyo">
   <data key="d0">Tokyo</data>
   <data key="d3">location</data>
-  <data key="d2">Tokyo is the host city of the World Athletics Championship.</data>
-  <data key="d1">chunk-c34bf4364505dde0bb0412c96222f4b6</data>
-  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
-  <data key="d5">1773748959</data>
+  <data key="d2">World Athletics Championship Location Summary:
+
+Tokyo, the capital city of Japan, is set to host the World Athletics Championship. As the chosen venue, Tokyo contributes significantly to the global appeal and competitive spirit of the event.
+
+In historical context, Tokyo has hosted major sporting events, reinforcing its status as a crucial location for international competitions. The city boasts an impressive track and field legacy and is a major hub for athletics.
+
+Precisely at Tokyo, Japan, this landmark sports competition, a biennial global event for athletes in track and field, will take place. The event leverages Tokyo's existing sports infrastructure and vibrant international sports community, further enhancing its already esteemed reputation as an essential venue for the World Athletics Championship.
+
+Tokyo’s selection as the host city amplifies its international stature and continues to attract some of the world's best athletes to compete in a range of track and field disciplines.
+
+---
+
+Please note that due to token constraints, this summary is concise but captures the essence of Tokyo's significance as the host city for the World Athletics Championship.</data>
+  <data key="d1">chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-9615e6b87fc00e3a7f3e85036e4602d1&lt;SEP&gt;chunk-849afa7e6989afd2cff48dd3a229894a&lt;SEP&gt;chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">T-GENAIHP-I-m1-l7-en-file-8.en.pdf&lt;SEP&gt;story.txt&lt;SEP&gt;Friends.txt</data>
+  <data key="d5">1774791540</data>
   <data key="d6"></data>
 </node>
 <node id="data">
@@ -409,6 +477,375 @@
   <data key="d5">1774439767</data>
   <data key="d6"></data>
 </node>
+<node id="Old Banyan Tree">
+  <data key="d0">Old Banyan Tree</data>
+  <data key="d3">organization</data>
+  <data key="d2">The old banyan tree in the village where the three friends meet.</data>
+  <data key="d1">chunk-f4bb2944a9234fae77eb43fca9d768e7</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777847</data>
+  <data key="d6"></data>
+</node>
+<node id="Ravi">
+  <data key="d0">Ravi</data>
+  <data key="d3">person</data>
+  <data key="d2">Ravi is one of the three friends known for his inquisitive nature.&lt;SEP&gt;Ravi is a character who undertook exploration to understand the local environmental issue.</data>
+  <data key="d1">chunk-f4bb2944a9234fae77eb43fca9d768e7&lt;SEP&gt;chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777847</data>
+  <data key="d6"></data>
+</node>
+<node id="Meera">
+  <data key="d0">Meera</data>
+  <data key="d3">person</data>
+  <data key="d2">Meera is one of the three friends who expresses herself through visual art.&lt;SEP&gt;Meera is depicted as someone who enjoys drawing the world around her.&lt;SEP&gt;Meera is a friend who designed the interface for the AI project.&lt;SEP&gt;Meera is responsible for designing the interface of the AI solution.</data>
+  <data key="d1">chunk-f4bb2944a9234fae77eb43fca9d768e7&lt;SEP&gt;chunk-9615e6b87fc00e3a7f3e85036e4602d1&lt;SEP&gt;chunk-80e49f877ff24526c1fd05273d46c9a1&lt;SEP&gt;chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">story.txt&lt;SEP&gt;Friends.txt</data>
+  <data key="d5">1774791418</data>
+  <data key="d6"></data>
+</node>
+<node id="Kiran">
+  <data key="d0">Kiran</data>
+  <data key="d3">person</data>
+  <data key="d2">Kiran is the third friend, recognized for being more reserved in communication.&lt;SEP&gt;Kiran is described as a person who notices everything, despite being less vocal.</data>
+  <data key="d1">chunk-f4bb2944a9234fae77eb43fca9d768e7&lt;SEP&gt;chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777853</data>
+  <data key="d6"></data>
+</node>
+<node id="Village River">
+  <data key="d0">Village River</data>
+  <data key="d3">location</data>
+  <data key="d2">The river running through the village where the friends congregate.</data>
+  <data key="d1">chunk-f4bb2944a9234fae77eb43fca9d768e7</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777855</data>
+  <data key="d6"></data>
+</node>
+<node id="River">
+  <data key="d0">River</data>
+  <data key="d3">concept</data>
+  <data key="d2">The river symbolizes the natural backdrop to the friends' meetings and the setting of their bond.&lt;SEP&gt;The river is a significant part of the landscape, around which the narrative centers.</data>
+  <data key="d1">chunk-f4bb2944a9234fae77eb43fca9d768e7&lt;SEP&gt;chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777857</data>
+  <data key="d6"></data>
+</node>
+<node id="La Reunão Internacional de Exploración Espacial">
+  <data key="d0">La Reunão Internacional de Exploración Espacial</data>
+  <data key="d3">organization</data>
+  <data key="d2">La Reunión Internacional de Exploración Espacial is a gathering of space exploration enthusiasts and experts without an organizational role in itself.</data>
+  <data key="d1">chunk-f4bb2944a9234fae77eb43fca9d768e7</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777859</data>
+  <data key="d6"></data>
+</node>
+<node id="Villagers">
+  <data key="d0">Villagers</data>
+  <data key="d3">person</data>
+  <data key="d2">The villagers are a collective community within the</data>
+  <data key="d1">chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777861</data>
+  <data key="d6"></data>
+</node>
+<node id="100m sprint race">
+  <data key="d0">100m sprint race</data>
+  <data key="d3">event</data>
+  <data key="d2">Noah Carter competed in the 100m sprint race during the championship.</data>
+  <data key="d1">chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777875</data>
+  <data key="d6"></data>
+</node>
+<node id="100m Sprint Race">
+  <data key="d0">100m Sprint Race</data>
+  <data key="d3">event</data>
+  <data key="d2">Noah Carter competed vigorously in the 100m sprint race during the World Athletics Championship.`&lt;SEP&gt;The 100m sprint race was one of the competing events in the World Athletics Championship.`&lt;SEP&gt;Part of the World Athletics Championship, Noah Carter competed in the 100m sprint race.`</data>
+  <data key="d1">chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777879</data>
+  <data key="d6"></data>
+</node>
+<node id="Jordan National Museum">
+  <data key="d0">Jordan National Museum</data>
+  <data key="d3">naturalobject</data>
+  <data key="d2">It houses significant cultural artifacts representing the country's history and heritage.&lt;SEP&gt;An important natural object that is displayed within the museum.</data>
+  <data key="d1">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777883</data>
+  <data key="d6"></data>
+</node>
+<node id="competes in">
+  <data key="d0">competes in</data>
+  <data key="d1">chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d2">person-event, where he aimed at breaking the world record against world-class sprinters.`</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777890</data>
+  <data key="d6"></data>
+</node>
+<node id="Bronze Medal">
+  <data key="d0">Bronze Medal</data>
+  <data key="d1">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d2">Noah Carter received a respectable third place, marking his success on the global stage.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777905</data>
+  <data key="d6"></data>
+</node>
+<node id="Hosts">
+  <data key="d0">Hosts</data>
+  <data key="d1">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d2">Tokyo, as the host city, not only features as the venue and international conference location but also as one of the four megacity financial and cultural centers.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">story.txt</data>
+  <data key="d5">1774777905</data>
+  <data key="d6"></data>
+</node>
+<node id="Aarav">
+  <data key="d0">Aarav</data>
+  <data key="d3">person</data>
+  <data key="d2">Aarav is a friend who coded the logic for the AI project.</data>
+  <data key="d1">chunk-80e49f877ff24526c1fd05273d46c9a1</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791418</data>
+  <data key="d6"></data>
+</node>
+<node id="Kabir">
+  <data key="d0">Kabir</data>
+  <data key="d3">person</data>
+  <data key="d2">Kabir is a friend responsible for handling data for the AI project.&lt;SEP&gt;Kabir is in charge of managing the data related to the AI solution.</data>
+  <data key="d1">chunk-80e49f877ff24526c1fd05273d46c9a1&lt;SEP&gt;chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791423</data>
+  <data key="d6"></data>
+</node>
+<node id="Zoya">
+  <data key="d0">Zoya</data>
+  <data key="d3">person</data>
+  <data key="d2">Zoya is a friend who tested every feature for the AI project.&lt;SEP&gt;Zoya is tasked with thoroughly testing every feature of the AI solution.</data>
+  <data key="d1">chunk-80e49f877ff24526c1fd05273d46c9a1&lt;SEP&gt;chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791425</data>
+  <data key="d6"></data>
+</node>
+<node id="Dev">
+  <data key="d0">Dev</data>
+  <data key="d3">person</data>
+  <data key="d2">Dev is a friend involved in creating a small AI for the project.&lt;SEP&gt;Dev is responsible for connecting the AI solution to real users.</data>
+  <data key="d1">chunk-80e49f877ff24526c1fd05273d46c9a1&lt;SEP&gt;chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791427</data>
+  <data key="d6"></data>
+</node>
+<node id="Small AI">
+  <data key="d0">Small AI</data>
+  <data key="d3">softwareproduct</data>
+  <data key="d2">They created a small AI software product to solve local problems.</data>
+  <data key="d1">chunk-80e49f877ff24526c1fd05273d46c9a1</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791429</data>
+  <data key="d6"></data>
+</node>
+<node id="Local Problems">
+  <data key="d0">Local Problems</data>
+  <data key="d3">concept</data>
+  <data key="d2">Local problems are issues within the community that can be addressed by local AI technology.</data>
+  <data key="d1">chunk-80e49f877ff24526c1fd05273d46c9a1</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791431</data>
+  <data key="d6"></data>
+</node>
+<node id="Their AI">
+  <data key="d0">Their AI</data>
+  <data key="d3">equipment</data>
+  <data key="d2">The AI entity assists various professionals like farmers, students, and doctors.</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791433</data>
+  <data key="d6"></data>
+</node>
+<node id="Farmers">
+  <data key="d0">Farmers</data>
+  <data key="d3">professionals</data>
+  <data key="d2">Farmers are among the users of the AI to predict weather.</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791435</data>
+  <data key="d6"></data>
+</node>
+<node id="Students">
+  <data key="d0">Students</data>
+  <data key="d3">professionals</data>
+  <data key="d2">Students utilize the AI to learn faster.</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791437</data>
+  <data key="d6"></data>
+</node>
+<node id="Doctors">
+  <data key="d0">Doctors</data>
+  <data key="d3">professionals</data>
+  <data key="d2">Doctors use the AI to analyze reports.</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791439</data>
+  <data key="d6"></data>
+</node>
+<node id="Collaboration">
+  <data key="d0">Collaboration</data>
+  <data key="d3">method</data>
+  <data key="d2">The collaboration between the team and the AI is a method they used to improve their initial idea.</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791441</data>
+  <data key="d6"></data>
+</node>
+<node id="100m Sprint">
+  <data key="d0">100m Sprint</data>
+  <data key="d3">category</data>
+  <data key="d2">The sprint is a short-distance speed event common to the track and field athletics program of the World Athletics Championship.&lt;SEP&gt;The 100-meter sprint is a track and field event within the World Athletics Championship.</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791447</data>
+  <data key="d6"></data>
+</node>
+<node id="Japan">
+  <data key="d0">Japan</data>
+  <data key="d3">location</data>
+  <data key="d2">Japan, where Noah Carter, the mentioned athlete, competes.</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791645</data>
+  <data key="d6"></data>
+</node>
+<node id="Individuals involved in AI development">
+  <data key="d0">Individuals involved in AI development</data>
+  <data key="d3">group</data>
+  <data key="d2">Individuals, consisting of Meera, Kabir, Zoya, and Dev.</data>
+  <data key="d1">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791647</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Solutions">
+  <data key="d0">AI Solutions</data>
+  <data key="d3">method</data>
+  <data key="d2">The development team improved the AI by improving it step by step.</data>
+  <data key="d1">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791649</data>
+  <data key="d6"></data>
+</node>
+<node id="Initial AI System Errors">
+  <data key="d0">Initial AI System Errors</data>
+  <data key="d3">data</data>
+  <data key="d2">The AI solution initially made mistakes that the individuals worked to improve upon.</data>
+  <data key="d1">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791651</data>
+  <data key="d6"></data>
+</node>
+<node id="Improvements to AI Functionality">
+  <data key="d0">Improvements to AI Functionality</data>
+  <data key="d3">concept</data>
+  <data key="d2">The group's collective effort resulted in improvements to the functionality of the AI solution.</data>
+  <data key="d1">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791653</data>
+  <data key="d6"></data>
+</node>
+<node id="&quot;Code and Design&quot; Phrase">
+  <data key="d0">"Code and Design" Phrase</data>
+  <data key="d3">phrase</data>
+  <data key="d2">"Code and Design" refers to the collaborative work of Meera, Kabir, Zoya, and Dev.</data>
+  <data key="d1">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791655</data>
+  <data key="d6"></data>
+</node>
+<node id="Anonymous Team">
+  <data key="d0">Anonymous Team</data>
+  <data key="d3">group</data>
+  <data key="d2">A team of unspecified participants demonstrates collaboration.</data>
+  <data key="d1">chunk-db5765ef440e933ad548f7b9b1b894d1</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791656</data>
+  <data key="d6"></data>
+</node>
+<node id="Powerful Idea">
+  <data key="d0">Powerful Idea</data>
+  <data key="d3">concept</data>
+  <data key="d2">The concept that arose from the team's collaboration is powerful.</data>
+  <data key="d1">chunk-db5765ef440e933ad548f7b9b1b894d1</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774791658</data>
+  <data key="d6"></data>
+</node>
+<node id="Their Team">
+  <data key="d0">Their Team</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d2">The team's work on the AI led to step by step improvements.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774792310</data>
+  <data key="d6"></data>
+</node>
+<node id="The AI">
+  <data key="d0">The AI</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d2">The AI was created as a result of the team's collaboration.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774792316</data>
+  <data key="d6"></data>
+</node>
+<node id="Performed For">
+  <data key="d0">Performed For</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d2">country in the 100m sprint at the championship.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774792321</data>
+  <data key="d6"></data>
+</node>
+<node id="Participated As">
+  <data key="d0">Participated As</data>
+  <data key="d1">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d2">In the 100m sprint competitive athlete at the championship.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774792326</data>
+  <data key="d6"></data>
+</node>
+<node id="Team Members-">
+  <data key="d0">Team Members-</data>
+  <data key="d1">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d2">Meera worked in cooperation with the rest of the team on the interface design alongside Dev, Kabir, and Zoya.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774792326</data>
+  <data key="d6"></data>
+</node>
+<node id="Improvement Process">
+  <data key="d0">Improvement Process</data>
+  <data key="d1">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d2">The individuals collaborated and used an iterative process to improve the AI solution.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774792334</data>
+  <data key="d6"></data>
+</node>
+<node id="Meera, Kabir, Zoya, and Dev">
+  <data key="d0">Meera, Kabir, Zoya, and Dev</data>
+  <data key="d1">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d2">The individuals collaborated and used an iterative process to improve the AI solution.</data>
+  <data key="d3">UNKNOWN</data>
+  <data key="d4">Friends.txt</data>
+  <data key="d5">1774792336</data>
+  <data key="d6"></data>
+</node>
 <edge source="Method" target="data/document.txt">
   <data key="d7">1.0</data>
   <data key="d8">has, several, has-been-developed</data>
@@ -454,13 +891,94 @@
   <data key="d12">1773748969</data>
   <data key="d13"></data>
 </edge>
-<edge source="Noah Carter" target="100m Sprint Record">
+<edge source="World Athletics Championship" target="Noah Carter">
   <data key="d7">1.0</data>
-  <data key="d8">performed at the World Athletics Championship.</data>
-  <data key="d9">athlete achievement,record-breaking</data>
-  <data key="d10">chunk-c34bf4364505dde0bb0412c96222f4b6</data>
-  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
-  <data key="d12">1773748972</data>
+  <data key="d8">Noah Carter is one of the competitors in the event and is acknowledged for his notable achievements here.</data>
+  <data key="d9">Personal accomplishment,competition</data>
+  <data key="d10">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777902</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Noah Carter" target="100m Sprint Record">
+  <data key="d7">2.0</data>
+  <data key="d8">performed at the World Athletics Championship.&lt;SEP&gt;This is the athlete who broke the 100m sprint record.</data>
+  <data key="d9">Achievement,athlete achievement,record-breaking</data>
+  <data key="d10">chunk-c34bf4364505dde0bb0412c96222f4b6&lt;SEP&gt;chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf&lt;SEP&gt;story.txt</data>
+  <data key="d12">1774777898</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Noah Carter" target="competes in">
+  <data key="d7">1.0</data>
+  <data key="d8">person-event, where he aimed at breaking the world record against world-class sprinters.`</data>
+  <data key="d9">The 100m Sprint Race</data>
+  <data key="d10">chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777894</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Noah Carter" target="Carbon-Fiber Spikes">
+  <data key="d7">1.0</data>
+  <data key="d8">Crucial equipment that Noah Carter used in the championship to set a new speed record.</data>
+  <data key="d9">Used for,performance enhancement</data>
+  <data key="d10">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777900</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Noah Carter" target="Bronze Medal">
+  <data key="d7">1.0</data>
+  <data key="d8">Noah Carter received a respectable third place, marking his success on the global stage.</data>
+  <data key="d9">Medal classification,international recognition</data>
+  <data key="d10">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777909</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Noah Carter" target="Tokyo">
+  <data key="d7">1.0</data>
+  <data key="d8">Noah Carter's accomplishments at this international venue are well-acknowledged by the global athletics community.</data>
+  <data key="d9">Participation,international venue</data>
+  <data key="d10">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777915</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Noah Carter" target="Performed For">
+  <data key="d7">1.0</data>
+  <data key="d8">country in the 100m sprint at the championship.</data>
+  <data key="d9">Japan</data>
+  <data key="d10">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792324</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Noah Carter" target="Participated As">
+  <data key="d7">1.0</data>
+  <data key="d8">In the 100m sprint competitive athlete at the championship.</data>
+  <data key="d9">Sprinter</data>
+  <data key="d10">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792330</data>
+  <data key="d13"></data>
+</edge>
+<edge source="100m Sprint Record" target="Tokyo">
+  <data key="d7">1.0</data>
+  <data key="d8">Tokyo, known for setting the pace in athletics, has witnessed world records, including Noah Carter's impressive feat.</data>
+  <data key="d9">Cities associated with world records in athletics</data>
+  <data key="d10">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777913</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Tokyo" target="Hosts">
+  <data key="d7">1.0</data>
+  <data key="d8">Tokyo, as the host city, not only features as the venue and international conference location but also as one of the four megacity financial and cultural centers.</data>
+  <data key="d9">Capital city of Japan,venue for high-profile events</data>
+  <data key="d10">chunk-849afa7e6989afd2cff48dd3a229894a</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777911</data>
   <data key="d13"></data>
 </edge>
 <edge source="Tech Giants" target="downward">
@@ -569,6 +1087,177 @@
   <data key="d10">chunk-99d03f21486129ad029db49460bee846</data>
   <data key="d11">T-GENAIHP-I-m1-l7-en-file-8.en.pdf</data>
   <data key="d12">1773748979</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Ravi" target="River">
+  <data key="d7">1.0</data>
+  <data key="d8">Ravi's exploration upstream is related to the investigation of the river's condition as described in the narrative.</data>
+  <data key="d9">environmental monitoring,person exploration</data>
+  <data key="d10">chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777885</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Meera" target="Kiran">
+  <data key="d7">1.0</data>
+  <data key="d8">Kiran's noticing habits could have inspired Meera in her art, creating a potential influence in the content of Meera's drawings.</data>
+  <data key="d9">conceptual inspiration,environmental observation</data>
+  <data key="d10">chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777885</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Meera" target="Small AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Meera designed an interface for the AI project.</data>
+  <data key="d9">Content design,interface design</data>
+  <data key="d10">chunk-80e49f877ff24526c1fd05273d46c9a1</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792304</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Meera" target="Team Members-">
+  <data key="d7">1.0</data>
+  <data key="d8">Meera worked in cooperation with the rest of the team on the interface design alongside Dev, Kabir, and Zoya.</data>
+  <data key="d9">Interface Design,Kabir,Zoya),collaborative work (Dev</data>
+  <data key="d10">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792329</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Kiran" target="River">
+  <data key="d7">1.0</data>
+  <data key="d8">Kiran pays close attention to the river-an essential focal point in the text.</data>
+  <data key="d9">environmental observation,person perception</data>
+  <data key="d10">chunk-9615e6b87fc00e3a7f3e85036e4602d1</data>
+  <data key="d11">story.txt</data>
+  <data key="d12">1774777890</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Aarav" target="Small AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Aarav coded the logic for the AI to solve local problems.</data>
+  <data key="d9">coding the logic for AI creation,method development</data>
+  <data key="d10">chunk-80e49f877ff24526c1fd05273d46c9a1</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792303</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Kabir" target="Small AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Kabir is handling (managing) data for the AI project.</data>
+  <data key="d9">Data handling,data management</data>
+  <data key="d10">chunk-80e49f877ff24526c1fd05273d46c9a1</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792306</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Kabir" target="Team Members-">
+  <data key="d7">1.0</data>
+  <data key="d8">Kabir worked together with Meera, Zoya, and Dev in the management of data.</data>
+  <data key="d9">Data Handling,Dev),Zoya,collaborative work (Meera</data>
+  <data key="d10">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792331</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Zoya" target="Small AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Zoya is testing every feature for the AI project to ensure functionality.</data>
+  <data key="d9">Feature testing,quality assurance</data>
+  <data key="d10">chunk-80e49f877ff24526c1fd05273d46c9a1</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792308</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Zoya" target="Team Members-">
+  <data key="d7">1.0</data>
+  <data key="d8">Zoya tested the features developed by Meera, Kabir, and Dev.</data>
+  <data key="d9">Dev),Feature Testing,Kabir,collaborative work (Meera</data>
+  <data key="d10">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792332</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Dev" target="Small AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Dev and others are working collaboratively to build an AI for the project.</data>
+  <data key="d9">Collaborative design,development</data>
+  <data key="d10">chunk-80e49f877ff24526c1fd05273d46c9a1</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792310</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Dev" target="Team Members-">
+  <data key="d7">1.0</data>
+  <data key="d8">Dev worked with Meera and Kabir to integrate the AI solution with real users, while Zoya tested the features.</data>
+  <data key="d9">Kabir,User Connection,Zoya),collaborative work (Meera</data>
+  <data key="d10">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792334</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Their AI" target="Farmers">
+  <data key="d7">1.0</data>
+  <data key="d8">The AI helps farmers predict weather.</data>
+  <data key="d9">collaboratively assists</data>
+  <data key="d10">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792313</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Students" target="The AI">
+  <data key="d7">1.0</data>
+  <data key="d8">The AI assists students in learning, leading to faster learning rates.</data>
+  <data key="d9">assistance,educational enhancement</data>
+  <data key="d10">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792319</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Doctors" target="The AI">
+  <data key="d7">1.0</data>
+  <data key="d8">The AI assists doctors with analyzing reports.</data>
+  <data key="d9">assists,report analysis</data>
+  <data key="d10">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792321</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Collaboration" target="Their Team">
+  <data key="d7">1.0</data>
+  <data key="d8">The team's work on the AI led to step by step improvements.</data>
+  <data key="d9">improvement,iterative refinement</data>
+  <data key="d10">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792314</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Anonymous Team" target="Powerful Idea">
+  <data key="d7">1.0</data>
+  <data key="d8">The team members' ability to work together brought about a powerful idea.</data>
+  <data key="d9">collaboration,innovation</data>
+  <data key="d10">chunk-db5765ef440e933ad548f7b9b1b894d1</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792337</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Their Team" target="The AI">
+  <data key="d7">1.0</data>
+  <data key="d8">The AI was created as a result of the team's collaboration.</data>
+  <data key="d9">created by,joint development</data>
+  <data key="d10">chunk-ad619cf1568200e4af5ed3bb6b714ccc</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792318</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Improvement Process" target="Meera, Kabir, Zoya, and Dev">
+  <data key="d7">1.0</data>
+  <data key="d8">The individuals collaborated and used an iterative process to improve the AI solution.</data>
+  <data key="d9">iterative progress,method</data>
+  <data key="d10">chunk-f9827ab63cc2700817ef880c46c51a85</data>
+  <data key="d11">Friends.txt</data>
+  <data key="d12">1774792339</data>
   <data key="d13"></data>
 </edge>
 </graph></graphml>

@@ -26,5 +26,19 @@
     "create_time": 1774439177,
     "update_time": 1774439177,
     "_id": "doc-e5d014c1c2f94bfd6653a81e4d7fc4f7"
+  },
+  "doc-53acea6103789f1ee791ca97a33d6312": {
+    "content": "In a quiet village by a river, three unlikely friends met every evening under an old banyan tree.\r\n\r\nRavi was curious and always asking questions. Meera loved drawing the world around her. And Kiran—he never spoke much, but he noticed everything.\r\n\r\nOne day, the river began to dry. The villagers worried, but no one knew why.\r\n\r\nRavi explored upstream and found fallen branches blocking the flow. Meera sketched the problem clearly so others could understand. Kiran silently gathered tools and started clearing the debris.\r\n\r\nTogether, they restored the river.\r\n\r\nThat evening, as water flowed again, Ravi smiled, Meera drew the shining stream, and Kiran simply sat—watching everything, just as always.\r\n\r\nAnd from that day on, the village knew: sometimes, it takes curiosity, creativity, and quiet action to solve a problem.",
+    "file_path": "story.txt",
+    "create_time": 1774777843,
+    "update_time": 1774777843,
+    "_id": "doc-53acea6103789f1ee791ca97a33d6312"
+  },
+  "doc-528e0d25118e8966adc339b6ae52ef1d": {
+    "content": "Five friends—Aarav, Meera, Kabir, Zoya, and Dev—built a small AI to solve local problems. Aarav coded the logic, Meera designed the interface, Kabir handled data, Zoya tested every feature, and Dev connected it to real users. At first, their AI made mistakes, but together they improved it step by step. Soon, it helped farmers predict weather, students learn faster, and doctors analyze reports. Their teamwork turned a simple idea into something powerful, proving that great innovation comes from collaboration.",
+    "file_path": "Friends.txt",
+    "create_time": 1774779121,
+    "update_time": 1774779121,
+    "_id": "doc-528e0d25118e8966adc339b6ae52ef1d"
   }
 }
